@@ -1,0 +1,70 @@
+about:
+  description: a fast, scalable, multi-language and extensible build system
+  license: Apache-2.0
+  homepage: https://bazel.build
+  head: 0b43bff
+  archived: false
+  latestVersion: 8.8.0
+  collectedAt: 2026-09-01T05:36:30Z
+timeline:
+  created: 2014-06-12
+  lastCommit: 2026-08-31
+  lastRelease: 2026-08-31
+popularity:
+  star: 25787
+  watcher: 596
+  fork: 4586
+  release: 267
+  contributor: 1145
+  pullRequest: 9968
+  issue: 16937
+language:
+  Java: 46755910
+  Python: 4067962
+  Shell: 3258393
+  C++: 1846226
+  HTML: 33468
+  Starlark: 21565
+  C: 18365
+  PowerShell: 15431
+  Objective-C: 10817
+  jq: 4441
+  CSS: 3169
+  Objective-C++: 1043
+  Batchfile: 710
+  Go Template: 591
+  Makefile: 248
+totalLine: 56038339
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 5
+    mergedPR: 48
+    openPR: 95
+    closedIssue: 62
+    openIssue: 74
+    commit: 233
+  last90d:
+    since: 2026-06-03
+    release: 9
+    mergedPR: 192
+    openPR: 201
+    closedIssue: 295
+    openIssue: 134
+    commit: 806
+  last180d:
+    since: 2026-03-05
+    release: 23
+    mergedPR: 325
+    openPR: 258
+    closedIssue: 538
+    openIssue: 199
+    commit: 1392
+  last360d:
+    since: 2025-09-06
+    release: 58
+    mergedPR: 698
+    openPR: 310
+    closedIssue: 1235
+    openIssue: 349
+    commit: 2706
