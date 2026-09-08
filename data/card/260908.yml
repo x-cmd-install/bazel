@@ -5,18 +5,18 @@ about:
   head: 2600d1f
   archived: false
   latestVersion: "8.8.0"
-  collectedAt: 2026-09-08T02:38:48Z
+  collectedAt: 2026-09-08T05:14:48Z
 timeline:
   created: 2014-06-12
   lastCommit: 2026-09-07
   lastRelease: 2026-08-31
 popularity:
-  star: 25816
+  star: 25817
   watcher: 599
   fork: 4595
   release: 267
   contributor: 1135
-  pullRequest: 12735
+  pullRequest: 12736
   issue: 16958
 language:
   Java: 46935885
@@ -40,7 +40,7 @@ recent:
     since: 2026-08-09
     release: 4
     mergedPR: 64
-    openPR: 82
+    openPR: 83
     closedIssue: 74
     openIssue: 51
     commit: 257
@@ -48,7 +48,7 @@ recent:
     since: 2026-07-10
     release: 6
     mergedPR: 151
-    openPR: 138
+    openPR: 139
     closedIssue: 198
     openIssue: 73
     commit: 588
@@ -56,7 +56,7 @@ recent:
     since: 2026-06-10
     release: 8
     mergedPR: 212
-    openPR: 183
+    openPR: 184
     closedIssue: 320
     openIssue: 107
     commit: 839
@@ -64,7 +64,7 @@ recent:
     since: 2026-03-12
     release: 21
     mergedPR: 345
-    openPR: 241
+    openPR: 242
     closedIssue: 555
     openIssue: 170
     commit: 1429
@@ -72,7 +72,7 @@ recent:
     since: 2025-09-13
     release: 55
     mergedPR: 722
-    openPR: 292
+    openPR: 293
     closedIssue: 1254
     openIssue: 315
     commit: 2721
@@ -80,20 +80,20 @@ recent:
     since: 2024-09-18
     release: 100
     mergedPR: 1322
-    openPR: 321
+    openPR: 322
     closedIssue: 2529
     openIssue: 600
     commit: 6062
 total:
   release: 267
   mergedPR: 2728
-  openPR: 338
+  openPR: 339
   closedIssue: 15468
   openIssue: 1490
   commit: 46877
 ---
 path: /home/runner/.x-repo/github.com/bazelbuild/bazel
-collectedAt: 2026-09-08T02:39:54Z
+collectedAt: 2026-09-08T05:15:53Z
 loc:
   Java:
     code: 981024
