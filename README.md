@@ -7,7 +7,7 @@ a fast, scalable, multi-language and extensible build system
 - **Latest release**: `8.8.0` (2026-08-31)
 - **Last commit**: 2026-09-08
 - **License**: Apache-2.0
-- **Stars**: 25816 · **Forks**: 4593 · **Open issues**: 16958 · **Contributors**: 1135
+- **Stars**: 25817 · **Forks**: 4593 · **Open issues**: 16961 · **Contributors**: 1136
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/bazel> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T11:35:01Z._
+_Last regenerated: 2026-09-09T05:16:20Z._
