@@ -2,30 +2,30 @@ about:
   description: "a fast, scalable, multi-language and extensible build system"
   license: Apache-2.0
   homepage: https://bazel.build
-  head: b161f68
+  head: 982985a
   archived: false
   latestVersion: "8.8.0"
   latestRelease: "8.8.0"
   latestPrerelease: "8.8.0rc4"
-  collectedAt: 2026-09-09T05:14:46Z
+  collectedAt: 2026-09-09T19:53:48Z
 timeline:
   created: 2014-06-12
-  lastCommit: 2026-09-08
+  lastCommit: 2026-09-09
   lastVersion: 2026-08-31
   lastRelease: 2026-08-31
   lastPrerelease: 2026-08-27
 popularity:
-  star: 25817
+  star: 25819
   watcher: 599
-  fork: 4593
+  fork: 4594
   release: 267
-  contributor: 1136
-  pullRequest: 12745
-  issue: 16961
+  contributor: 1138
+  pullRequest: 12751
+  issue: 16963
 language:
-  Java: 46898653
-  Python: 4095808
-  Shell: 3269492
+  Java: 46912582
+  Python: 4099109
+  Shell: 3274521
   C++: 1847590
   HTML: 30366
   Starlark: 20651
@@ -37,76 +37,76 @@ language:
   Batchfile: 710
   Go Template: 591
   Makefile: 248
-totalBytes: 56214206
+totalBytes: 56236465
 recent:
   last30d:
     since: 2026-08-10
     release: 4
-    mergedPR: 67
+    mergedPR: 69
     openPR: 84
-    closedIssue: 79
-    openIssue: 43
-    commit: 281
+    closedIssue: 84
+    openIssue: 40
+    commit: 302
   last60d:
     since: 2026-07-11
     release: 6
-    mergedPR: 155
-    openPR: 138
-    closedIssue: 211
-    openIssue: 63
-    commit: 612
+    mergedPR: 157
+    openPR: 137
+    closedIssue: 216
+    openIssue: 60
+    commit: 633
   last90d:
     since: 2026-06-11
     release: 8
-    mergedPR: 216
-    openPR: 184
-    closedIssue: 331
-    openIssue: 94
-    commit: 863
+    mergedPR: 218
+    openPR: 182
+    closedIssue: 336
+    openIssue: 91
+    commit: 884
   last180d:
     since: 2026-03-13
     release: 21
-    mergedPR: 346
-    openPR: 238
-    closedIssue: 563
-    openIssue: 154
-    commit: 1453
+    mergedPR: 348
+    openPR: 236
+    closedIssue: 568
+    openIssue: 151
+    commit: 1474
   last360d:
     since: 2025-09-14
     release: 55
-    mergedPR: 726
-    openPR: 292
-    closedIssue: 1272
-    openIssue: 300
-    commit: 2745
+    mergedPR: 728
+    openPR: 290
+    closedIssue: 1277
+    openIssue: 297
+    commit: 2766
   last720d:
     since: 2024-09-19
     release: 100
-    mergedPR: 1317
-    openPR: 321
-    closedIssue: 2542
-    openIssue: 579
-    commit: 6067
+    mergedPR: 1319
+    openPR: 319
+    closedIssue: 2548
+    openIssue: 575
+    commit: 6088
 total:
   release: 267
-  mergedPR: 2732
-  openPR: 335
-  closedIssue: 15511
-  openIssue: 1450
-  commit: 46901
+  mergedPR: 2734
+  openPR: 333
+  closedIssue: 15519
+  openIssue: 1444
+  commit: 46922
 ---
 path: /home/runner/.x-repo/github.com/bazelbuild/bazel
-collectedAt: 2026-09-09T05:16:01Z
+collectedAt: 2026-09-09T19:55:05Z
 loc:
   Java:
-    code: 980408
-    comments: 244467
-    blanks: 148397
+    code: 980700
+    comments: 244481
+    blanks: 148428
     files: 5828
   Sh:
-    code: 78980
+    code: 79124
     comments: 12894
-    blanks: 14857
+    blanks: 14876
     files: 294
   Cpp:
     code: 35982
@@ -119,9 +119,9 @@ loc:
     blanks: 2162
     files: 799
   Python:
-    code: 25952
+    code: 25989
     comments: 2721
-    blanks: 2988
+    blanks: 2990
     files: 95
   Protobuf:
     code: 4545
@@ -249,36 +249,45 @@ loc:
     blanks: 364
     files: 78
 total:
-  code: 1172597
-  comments: 313321
-  blanks: 183571
+  code: 1173070
+  comments: 313335
+  blanks: 183623
   files: 7640
 ---
-date: "2026-09-08T22:25:30Z"
+date: "2026-09-09T19:50:16Z"
 repo:
   name: github.com/bazelbuild/bazel
-  commit: b161f68e48857e25152647447b7d04ab1d017631
+  commit: 982985a256f48965a62a84c67911bfeae9e52da7
 scorecard:
   version: v5.5.0
   commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 6.1
 checks:
-  - name: Maintained
+  - name: Dependency-Update-Tool
     score: 10
-    reason: 30 commit(s) and 26 issue activity found in the last 90 days -- score normalized to 10
-    details: null
-  - name: Code-Review
-    score: 9
-    reason: Found 29/30 approved changesets -- score normalized to 9
+    reason: update tool detected
+    details:
+      - 'Info: detected update tool: Dependabot: .github/dependabot.yml:1'
+  - name: CI-Tests
+    score: -1
+    reason: no pull request found
     details: null
   - name: Packaging
     score: -1
     reason: packaging workflow not detected
     details:
       - 'Warn: no GitHub/GitLab publishing workflow detected.'
-  - name: CI-Tests
-    score: -1
-    reason: no pull request found
+  - name: Code-Review
+    score: 9
+    reason: Found 29/30 approved changesets -- score normalized to 9
+    details: null
+  - name: Dangerous-Workflow
+    score: 10
+    reason: no dangerous workflow patterns detected
+    details: null
+  - name: Maintained
+    score: 10
+    reason: 30 commit(s) and 17 issue activity found in the last 90 days -- score normalized to 10
     details: null
   - name: Security-Policy
     score: 10
@@ -288,15 +297,6 @@ checks:
       - 'Info: Found linked content: SECURITY.md:1'
       - 'Info: Found disclosure, vulnerability, and/or timelines in security policy: SECURITY.md:1'
       - 'Info: Found text in security policy: SECURITY.md:1'
-  - name: Dangerous-Workflow
-    score: 10
-    reason: no dangerous workflow patterns detected
-    details: null
-  - name: Dependency-Update-Tool
-    score: 10
-    reason: update tool detected
-    details:
-      - 'Info: detected update tool: Dependabot: .github/dependabot.yml:1'
   - name: Token-Permissions
     score: 0
     reason: detected GitHub workflow tokens with excessive permissions
@@ -312,15 +312,21 @@ checks:
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/stale.yml:14'
       - 'Warn: no topLevel permission defined: .github/workflows/trigger-docs-update.yml:1'
       - 'Info: no jobLevel write permissions found'
+  - name: License
+    score: 10
+    reason: license file detected
+    details:
+      - 'Info: project has a license file: LICENSE:0'
+      - 'Info: FSF or OSI recognized license: Apache License 2.0: LICENSE:0'
+  - name: CII-Best-Practices
+    score: 0
+    reason: no effort to earn an OpenSSF best practices badge detected
+    details: null
   - name: SAST
     score: 0
     reason: no SAST tool detected
     details:
       - 'Warn: no pull requests merged into dev branch'
-  - name: CII-Best-Practices
-    score: 0
-    reason: no effort to earn an OpenSSF best practices badge detected
-    details: null
   - name: Binary-Artifacts
     score: 0
     reason: binaries present in source code
@@ -367,12 +373,11 @@ checks:
       - 'Info:   9 out of   9 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:  16 out of  16 third-party GitHubAction dependencies pinned'
       - 'Info:   0 out of   1 pipCommand dependencies pinned'
-  - name: License
-    score: 10
-    reason: license file detected
+  - name: Fuzzing
+    score: 0
+    reason: project is not fuzzed
     details:
-      - 'Info: project has a license file: LICENSE:0'
-      - 'Info: FSF or OSI recognized license: Apache License 2.0: LICENSE:0'
+      - 'Warn: no fuzzer integrations found'
   - name: Signed-Releases
     score: 8
     reason: 5 out of the last 5 releases have a total of 5 signed artifacts.
@@ -387,11 +392,6 @@ checks:
       - 'Warn: release artifact 8.8.0rc3 does not have provenance: https://api.github.com/repos/bazelbuild/bazel/releases/376762941'
       - 'Warn: release artifact 8.8.0rc2 does not have provenance: https://api.github.com/repos/bazelbuild/bazel/releases/372654641'
       - 'Warn: release artifact 8.8.0rc1 does not have provenance: https://api.github.com/repos/bazelbuild/bazel/releases/366438535'
-  - name: Fuzzing
-    score: 0
-    reason: project is not fuzzed
-    details:
-      - 'Warn: no fuzzer integrations found'
   - name: Vulnerabilities
     score: 8
     reason: 2 existing vulnerabilities detected
