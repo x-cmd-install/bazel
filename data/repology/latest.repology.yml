@@ -1,0 +1,1147 @@
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-2
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: testing
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-r0
+  status: newest
+  summary: Bazel is an open-source build and test tool
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: testing
+  srcname: bazel
+  binname: bazel-bash-completion
+  visiblename: bazel-bash-completion
+  version: 9.2.0
+  origversion: 9.2.0-r0
+  status: newest
+  summary: Bash completions for bazel
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: alt_p11
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 8.3.0
+  origversion: 8.3.0-alt1
+  status: outdated
+  summary: A fast, scalable, multi-language and extensible build system
+  maintainers:
+    - ancieg@altlinux.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Java
+- repo: altsisyphus
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 8.3.0
+  origversion: 8.3.0-alt1
+  status: outdated
+  summary: A fast, scalable, multi-language and extensible build system
+  maintainers:
+    - ancieg@altlinux.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Java
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-2
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: aosc
+  srcname: app-devel/bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.1.0
+  origversion: null
+  status: outdated
+  summary: Tool to automate software builds and tests
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
+- repo: arch
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-2
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: archpower_powerpc64le
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 8.1.0
+  origversion: 8.1.0-1
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: aur
+  srcname: bazel3-bin
+  binname: bazel3-bin
+  visiblename: bazel3-bin
+  version: 3.7.2
+  origversion: 3.7.2-1
+  status: outdated
+  summary: Build and test software of any size, quickly and reliably.
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - Apache
+- repo: artix
+  subrepo: world
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-2
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: baulk
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: null
+  status: newest
+  summary: A fast, scalable, multi-language and extensible build system.
+- repo: chocolatey
+  binname: bazel
+  visiblename: bazel (Install)
+  version: 9.2.0
+  origversion: null
+  status: newest
+  summary: Correct, reproducible, fast builds for everyone
+- repo: chromebrew
+  srcname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: null
+  status: newest
+  summary: a fast, scalable, multi-language and extensible build system
+  licenses:
+    - Apache-2.0
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 7.2.1
+  origversion: null
+  status: outdated
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 7.0.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 6.5.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 6.2.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 5.4.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 4.2.4
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 4.0.0
+  origversion: null
+  status: legacy
+- repo: exherbo
+  subrepo: CleverCloud
+  srcname: dev-util/bazel
+  visiblename: dev-util/bazel
+  version: 4.2.1
+  origversion: null
+  status: outdated
+  summary: Build and test software of any size, quickly and reliably
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - dev-util
+- repo: freebsd
+  srcname: devel/bazel5
+  binname: bazel5
+  visiblename: devel/bazel5
+  version: 5.4.1
+  origversion: 5.4.1_2
+  status: legacy
+  summary: Fast and correct build system
+  maintainers:
+    - vishwin@freebsd.org
+  categories:
+    - devel
+- repo: freebsd
+  srcname: devel/bazel7
+  binname: bazel7
+  visiblename: devel/bazel7
+  version: 7.7.1
+  origversion: null
+  status: legacy
+  summary: Fast and correct build system (LTS 7)
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - devel
+- repo: freebsd
+  srcname: devel/bazel8
+  binname: bazel8
+  visiblename: devel/bazel8
+  version: 8.7.0
+  origversion: null
+  status: legacy
+  summary: Fast and correct build system (LTS 8)
+  maintainers:
+    - delphij@freebsd.org
+  categories:
+    - devel
+- repo: freebsd
+  srcname: devel/bazel9
+  binname: bazel9
+  visiblename: devel/bazel9
+  version: 9.2.0
+  origversion: 9.2.0_3
+  status: newest
+  summary: Fast and correct build system (LTS 9)
+  maintainers:
+    - delphij@freebsd.org
+  categories:
+    - devel
+- repo: freebsd
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.2.0
+  origversion: 6.2.0_2
+  status: legacy
+  summary: Fast and correct build system
+  maintainers:
+    - vishwin@freebsd.org
+  categories:
+    - devel
+- repo: homebrew
+  srcname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: null
+  status: newest
+  summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@7
+  visiblename: bazel@7
+  version: 7.7.1
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@8
+  visiblename: bazel@8
+  version: 8.8.0
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
+- repo: macports
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: bazel
+  version: 8.5.1
+  origversion: null
+  status: outdated
+  summary: A tool for automating builds and tests.
+  maintainers:
+    - missa-prime@github
+    - herbygillot@github
+  licenses:
+    - Apache-2
+  categories:
+    - devel
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-2
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_05
+  srcname: bazel
+  visiblename: bazel
+  version: 6.5.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_05
+  srcname: bazel_5
+  visiblename: bazel
+  version: 5.4.1
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_05
+  srcname: bazel_7
+  visiblename: bazel
+  version: 7.1.0
+  origversion: null
+  status: outdated
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: bazel
+  visiblename: bazel
+  version: 6.5.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: bazel_5
+  visiblename: bazel
+  version: 5.4.1
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: bazel_7
+  visiblename: bazel
+  version: 7.4.1
+  origversion: null
+  status: outdated
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: bazel
+  visiblename: bazel
+  version: 6.5.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: bazel_5
+  visiblename: bazel
+  version: 5.4.1
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: bazel_7
+  visiblename: bazel
+  version: 7.6.0
+  origversion: null
+  status: outdated
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: bazel
+  visiblename: bazel
+  version: 7.6.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: bazel_8
+  visiblename: bazel
+  version: 8.4.2
+  origversion: null
+  status: outdated
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: bazel
+  visiblename: bazel
+  version: 7.6.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: bazel_7
+  visiblename: bazel
+  version: 7.6.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: bazel_8
+  visiblename: bazel
+  version: 8.6.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: bazel_9
+  visiblename: bazel
+  version: 9.1.0
+  origversion: null
+  status: outdated
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_unstable
+  srcname: bazel
+  visiblename: bazel
+  version: 7.6.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - claudio.bley@gmail.com
+    - groodt@gmail.com
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_unstable
+  srcname: bazel_7
+  visiblename: bazel
+  version: 7.6.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - claudio.bley@gmail.com
+    - groodt@gmail.com
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_unstable
+  srcname: bazel_8
+  visiblename: bazel
+  version: 8.7.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - claudio.bley@gmail.com
+    - groodt@gmail.com
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_unstable
+  srcname: bazel_9
+  visiblename: bazel
+  version: 9.1.1
+  origversion: null
+  status: outdated
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - claudio.bley@gmail.com
+    - groodt@gmail.com
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: openbsd
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.5.0
+  origversion: null
+  status: outdated
+  summary: polyglot build tool
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - devel
+- repo: openeuler_22_03_lts_sp1
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.1.1
+  origversion: 5.1.1-0.oe2203sp1
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
+- repo: openeuler_22_03_lts_sp3
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.1.1
+  origversion: 5.1.1-0.oe2203sp3
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
+- repo: openeuler_22_03_lts_sp4
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.1.1
+  origversion: 5.1.1-0.oe2203sp4
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
+- repo: openeuler_24_03_lts
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.3.0
+  origversion: 5.3.0-1.oe2403
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
+- repo: openeuler_24_03_lts_sp1
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.3.0
+  origversion: 5.3.0-2.oe2403sp1
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
+- repo: openeuler_24_09
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.3.0
+  origversion: 5.3.0-1.oe2409
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
+- repo: openeuler_25_03
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.3.0
+  origversion: 5.3.0-2.oe2503
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
+- repo: openpkg_current
+  srcname: bazel
+  visiblename: bazel
+  version: 0.20.0
+  origversion: null
+  status: outdated
+  summary: Google's Build Tool
+  licenses:
+    - GPL
+  categories:
+    - Building
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bazel
+  visiblename: bazel
+  version: "3.4"
+  origversion: 3.4-bp155.2.10
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bazel0.19
+  visiblename: bazel0.19
+  version: 0.19.2
+  origversion: 0.19.2-bp155.2.13
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bazel0.24
+  visiblename: bazel0.24
+  version: 0.24.1
+  origversion: 0.24.1-bp155.2.12
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bazel0.29
+  visiblename: bazel0.29
+  version: 0.29.1
+  origversion: 0.29.1-bp155.2.13
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bazel1.2
+  visiblename: bazel1.2
+  version: 1.2.1
+  origversion: 1.2.1-bp155.2.13
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bazel2.0
+  visiblename: bazel2.0
+  version: 2.0.0
+  origversion: 2.0.0-bp155.2.13
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bazel3.4
+  visiblename: bazel3.4
+  version: 3.4.1
+  origversion: 3.4.1-bp155.2.13
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
+  subrepo: updates/backports
+  srcname: bazel6
+  visiblename: bazel6
+  version: 6.1.2
+  origversion: 6.1.2-bp155.2.1
+  status: outdated
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: bazel
+  visiblename: bazel
+  version: "3.4"
+  origversion: 3.4-bp156.3.1
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: bazel0.19
+  visiblename: bazel0.19
+  version: 0.19.2
+  origversion: 0.19.2-bp156.3.10
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: bazel0.24
+  visiblename: bazel0.24
+  version: 0.24.1
+  origversion: 0.24.1-bp156.3.10
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: bazel0.29
+  visiblename: bazel0.29
+  version: 0.29.1
+  origversion: 0.29.1-bp156.3.10
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: bazel1.2
+  visiblename: bazel1.2
+  version: 1.2.1
+  origversion: 1.2.1-bp156.3.10
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: bazel2.0
+  visiblename: bazel2.0
+  version: 2.0.0
+  origversion: 2.0.0-bp156.3.10
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: bazel3.4
+  visiblename: bazel3.4
+  version: 3.4.1
+  origversion: 3.4.1-bp156.3.10
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: bazel6
+  visiblename: bazel6
+  version: 6.3.1
+  origversion: 6.3.1-bp156.1.3
+  status: outdated
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: bazel8
+  binnames:
+    - bazel8
+    - bazel8-debuginfo
+    - bazel8-debugsource
+  visiblename: bazel8
+  version: 8.4.1
+  origversion: 8.4.1-1.5
+  status: outdated
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT AND GPL-2.0-or-later AND BSD-2-Clause AND Python-2.0 AND Zlib AND BSL-1.0
+  categories:
+    - Development/Tools/Building
+- repo: pkgsrc_2026_1
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.4.0
+  origversion: null
+  status: outdated
+  summary: Fast and correct build automation tool
+  maintainers:
+    - ryoon@netbsd.org
+  categories:
+    - devel
+- repo: pkgsrc_2026_2
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.4.0
+  origversion: null
+  status: outdated
+  summary: Fast and correct build automation tool
+  maintainers:
+    - ryoon@netbsd.org
+  categories:
+    - devel
+- repo: pkgsrc_current
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.4.0
+  origversion: null
+  status: outdated
+  summary: Fast and correct build automation tool
+  maintainers:
+    - ryoon@netbsd.org
+  categories:
+    - devel
+- repo: scoop
+  subrepo: main
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
+- repo: slackbuilds
+  srcname: development/bazel
+  visiblename: development/bazel
+  version: 9.2.0
+  origversion: null
+  status: newest
+  maintainers:
+    - kvngncrlsn@gmail.com
+  categories:
+    - development
+- repo: spack
+  srcname: bazel
+  visiblename: bazel
+  version: 7.7.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - lyddeb@spack
+  licenses:
+    - Apache-2.0
+  categories:
+    - build-tools
+- repo: tur
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: null
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  maintainers:
+    - termux-user-repository@github
+- repo: tur
+  srcname: bazel5
+  binname: bazel5
+  visiblename: bazel5
+  version: 5.4.1
+  origversion: null
+  status: legacy
+  summary: Correct, reproducible, and fast builds for everyone
+  maintainers:
+    - termux-user-repository@github
+- repo: tur
+  srcname: bazel6
+  binname: bazel6
+  visiblename: bazel6
+  version: 6.6.0
+  origversion: null
+  status: legacy
+  summary: Correct, reproducible, and fast builds for everyone
+  maintainers:
+    - termux-user-repository@github
+- repo: tur
+  srcname: bazel7
+  binname: bazel7
+  visiblename: bazel7
+  version: 7.7.1
+  origversion: null
+  status: legacy
+  summary: Correct, reproducible, and fast builds for everyone (Version 7)
+  maintainers:
+    - termux-user-repository@github
+- repo: tur
+  srcname: bazel8
+  binname: bazel8
+  visiblename: bazel8
+  version: 8.8.0
+  origversion: null
+  status: legacy
+  summary: Correct, reproducible, and fast builds for everyone (Version 8)
+  maintainers:
+    - termux-user-repository@github
+- repo: terra_rawhide
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-1.fcrawhide
+  status: newest
+  summary: Build and test software of any size, quickly and reliably
+  maintainers:
+    - cypress@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-1.fcrawhide
+  status: newest
+  summary: Build and test software of any size, quickly and reliably
+  maintainers:
+    - cypress@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: bazel
+  binname: bazel-bash-completion
+  visiblename: bazel-bash-completion
+  version: 9.2.0
+  origversion: 9.2.0-1.fcrawhide
+  status: newest
+  summary: Bash completion for bazel
+  maintainers:
+    - cypress@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: terra_rawhide
+  srcname: bazel
+  binname: bazel-zsh-completion
+  visiblename: bazel-zsh-completion
+  version: 9.2.0
+  origversion: 9.2.0-1.fcrawhide
+  status: newest
+  summary: Zsh completion for bazel
+  maintainers:
+    - cypress@fyralabs.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 8.3.1
+  origversion: 8.3.1_1
+  status: outdated
+  summary: Google's build system
+  maintainers:
+    - congdanhqx@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: wikidata
+  srcname: Q25345982
+  visiblename: Bazel
+  version: 9.2.0
+  origversion: null
+  status: newest
+  summary: software tool that automates software builds and tests
+  licenses:
+    - Apache Software License 2.0
+- repo: xrepo
+  srcname: bazel
+  visiblename: bazel
+  version: 5.0.0
+  origversion: null
+  status: legacy
+  summary: A fast, scalable, multi-language and extensible build system
+- repo: xrepo
+  srcname: bazel
+  visiblename: bazel
+  version: 7.1.0
+  origversion: null
+  status: outdated
+  summary: A fast, scalable, multi-language and extensible build system
