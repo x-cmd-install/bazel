@@ -31,8 +31,8 @@ Overall score: **6.1 / 10**
 Lowest-scoring checks:
 
 - **CI-Tests** (-1/10) — no pull request found
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,827 · **Forks**: 4,595 · **Open issues**: 16,967 · **Contributors**: 1,140
+- **Stars**: 25,829 · **Forks**: 4,596 · **Open issues**: 16,967 · **Contributors**: 1,140
 
 ## Totals (cumulative)
 
-- **Releases**: 267 · **Merged PRs**: 2737 · **Open PRs**: 328 · **Closed issues**: 15527 · **Open issues**: 1440 · **Commits**: 46938
+- **Releases**: 267 · **Merged PRs**: 2737 · **Open PRs**: 329 · **Closed issues**: 15527 · **Open issues**: 1440 · **Commits**: 46939
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 4 | 68 | 81 | 79 | 35 | 318 |
-| last60d | 2026-07-12 | 6 | 160 | 134 | 221 | 59 | 649 |
-| 90d | 2026-06-12 | 8 | 219 | 177 | 333 | 87 | 900 |
-| last180d | 2026-03-14 | 21 | 351 | 233 | 572 | 148 | 1490 |
-| 360d | 2025-09-15 | 55 | 731 | 285 | 1282 | 294 | 2782 |
-| last720d | 2024-09-20 | 100 | 1321 | 314 | 2551 | 571 | 6077 |
+| 30d | 2026-08-11 | 4 | 68 | 82 | 79 | 35 | 319 |
+| last60d | 2026-07-12 | 6 | 160 | 135 | 221 | 59 | 650 |
+| 90d | 2026-06-12 | 8 | 219 | 178 | 333 | 87 | 901 |
+| last180d | 2026-03-14 | 21 | 351 | 234 | 572 | 148 | 1491 |
+| 360d | 2025-09-15 | 55 | 731 | 286 | 1282 | 294 | 2783 |
+| last720d | 2024-09-20 | 100 | 1321 | 315 | 2551 | 571 | 6078 |
 
 ## Release assets
 
@@ -155,4 +155,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:47:20Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:05:25Z._

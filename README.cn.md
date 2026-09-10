@@ -12,7 +12,7 @@ a fast, scalable, multi-language and extensible build system
 x install bazel
 ```
 
-## 代码规模
+## 代码洞察
 
 合计: **1,174,333** 行代码（覆盖前 5 种语言、共 **7224** 个文件）。
 
@@ -31,8 +31,8 @@ x install bazel
 评分最低的几项:
 
 - **CI-Tests** (-1/10) — no pull request found
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install bazel
 
 ## 流行度
 
-- **Star**: 25,827 · **Fork**: 4,595 · **开放 issue**: 16,967 · **贡献者**: 1,140
+- **Star**: 25,829 · **Fork**: 4,596 · **开放 issue**: 16,967 · **贡献者**: 1,140
 
 ## 累计统计
 
-- **发布数**: 267 · **已合并 PR**: 2737 · **开放 PR**: 328 · **已关闭 issue**: 15527 · **开放 issue**: 1440 · **提交数**: 46938
+- **发布数**: 267 · **已合并 PR**: 2737 · **开放 PR**: 329 · **已关闭 issue**: 15527 · **开放 issue**: 1440 · **提交数**: 46939
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 4 | 68 | 81 | 79 | 35 | 318 |
-| last60d | 2026-07-12 | 6 | 160 | 134 | 221 | 59 | 649 |
-| 90d | 2026-06-12 | 8 | 219 | 177 | 333 | 87 | 900 |
-| last180d | 2026-03-14 | 21 | 351 | 233 | 572 | 148 | 1490 |
-| 360d | 2025-09-15 | 55 | 731 | 285 | 1282 | 294 | 2782 |
-| last720d | 2024-09-20 | 100 | 1321 | 314 | 2551 | 571 | 6077 |
+| 30d | 2026-08-11 | 4 | 68 | 82 | 79 | 35 | 319 |
+| last60d | 2026-07-12 | 6 | 160 | 135 | 221 | 59 | 650 |
+| 90d | 2026-06-12 | 8 | 219 | 178 | 333 | 87 | 901 |
+| last180d | 2026-03-14 | 21 | 351 | 234 | 572 | 148 | 1491 |
+| 360d | 2025-09-15 | 55 | 731 | 286 | 1282 | 294 | 2783 |
+| last720d | 2024-09-20 | 100 | 1321 | 315 | 2551 | 571 | 6078 |
 
 ## Release 资产
 
@@ -155,4 +155,4 @@ bazel 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T20:47:21Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T23:05:28Z._
