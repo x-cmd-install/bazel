@@ -2,12 +2,12 @@ about:
   description: "a fast, scalable, multi-language and extensible build system"
   license: Apache-2.0
   homepage: https://bazel.build
-  head: 574f753
+  head: 1bc558e
   archived: false
   latestVersion: "8.8.0"
   latestRelease: "8.8.0"
   latestPrerelease: "8.8.0rc4"
-  collectedAt: 2026-09-10T20:45:59Z
+  collectedAt: 2026-09-10T23:03:01Z
 timeline:
   created: 2014-06-12
   lastCommit: 2026-09-10
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-08-31
   lastPrerelease: 2026-08-27
 popularity:
-  star: 25827
+  star: 25829
   watcher: 599
-  fork: 4595
+  fork: 4596
   release: 267
   contributor: 1140
-  pullRequest: 12756
+  pullRequest: 12757
   issue: 16967
 language:
   Java: 46964447
@@ -43,60 +43,60 @@ recent:
     since: 2026-08-11
     release: 4
     mergedPR: 68
-    openPR: 81
+    openPR: 82
     closedIssue: 79
     openIssue: 35
-    commit: 318
+    commit: 319
   last60d:
     since: 2026-07-12
     release: 6
     mergedPR: 160
-    openPR: 134
+    openPR: 135
     closedIssue: 221
     openIssue: 59
-    commit: 649
+    commit: 650
   last90d:
     since: 2026-06-12
     release: 8
     mergedPR: 219
-    openPR: 177
+    openPR: 178
     closedIssue: 333
     openIssue: 87
-    commit: 900
+    commit: 901
   last180d:
     since: 2026-03-14
     release: 21
     mergedPR: 351
-    openPR: 233
+    openPR: 234
     closedIssue: 572
     openIssue: 148
-    commit: 1490
+    commit: 1491
   last360d:
     since: 2025-09-15
     release: 55
     mergedPR: 731
-    openPR: 285
+    openPR: 286
     closedIssue: 1282
     openIssue: 294
-    commit: 2782
+    commit: 2783
   last720d:
     since: 2024-09-20
     release: 100
     mergedPR: 1321
-    openPR: 314
+    openPR: 315
     closedIssue: 2551
     openIssue: 571
-    commit: 6077
+    commit: 6078
 total:
   release: 267
   mergedPR: 2737
-  openPR: 328
+  openPR: 329
   closedIssue: 15527
   openIssue: 1440
-  commit: 46938
+  commit: 46939
 ---
 path: /home/runner/.x-repo/github.com/bazelbuild/bazel
-collectedAt: 2026-09-10T20:47:09Z
+collectedAt: 2026-09-10T23:05:08Z
 loc:
   Java:
     code: 981833
@@ -240,8 +240,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 29600
-    blanks: 4343
+    comments: 29634
+    blanks: 4348
     files: 59
   Text:
     code: 0
@@ -250,27 +250,34 @@ loc:
     files: 78
 total:
   code: 1174368
-  comments: 313416
-  blanks: 183773
+  comments: 313450
+  blanks: 183778
   files: 7643
 ---
-date: "2026-09-10T20:14:17Z"
+date: "2026-09-10T21:07:58Z"
 repo:
   name: github.com/bazelbuild/bazel
-  commit: 574f75368c37894a51b3a0c9e4376232508a6e8e
+  commit: 1bc558ec265323f226e6040bd1a5977b343615b2
 scorecard:
   version: v5.5.0
   commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 6.1
 checks:
-  - name: Dependency-Update-Tool
-    score: 10
-    reason: update tool detected
-    details:
-      - 'Info: detected update tool: Dependabot: .github/dependabot.yml:1'
+  - name: Code-Review
+    score: 9
+    reason: Found 29/30 approved changesets -- score normalized to 9
+    details: null
   - name: CI-Tests
     score: -1
     reason: no pull request found
+    details: null
+  - name: Maintained
+    score: 10
+    reason: 30 commit(s) and 16 issue activity found in the last 90 days -- score normalized to 10
+    details: null
+  - name: Dangerous-Workflow
+    score: 10
+    reason: no dangerous workflow patterns detected
     details: null
   - name: Security-Policy
     score: 10
@@ -280,23 +287,6 @@ checks:
       - 'Info: Found linked content: SECURITY.md:1'
       - 'Info: Found disclosure, vulnerability, and/or timelines in security policy: SECURITY.md:1'
       - 'Info: Found text in security policy: SECURITY.md:1'
-  - name: Maintained
-    score: 10
-    reason: 30 commit(s) and 15 issue activity found in the last 90 days -- score normalized to 10
-    details: null
-  - name: Code-Review
-    score: 10
-    reason: all changesets reviewed
-    details: null
-  - name: Packaging
-    score: -1
-    reason: packaging workflow not detected
-    details:
-      - 'Warn: no GitHub/GitLab publishing workflow detected.'
-  - name: Dangerous-Workflow
-    score: 10
-    reason: no dangerous workflow patterns detected
-    details: null
   - name: Token-Permissions
     score: 0
     reason: detected GitHub workflow tokens with excessive permissions
@@ -312,12 +302,16 @@ checks:
       - 'Info: topLevel ''contents'' permission set to ''read'': .github/workflows/stale.yml:14'
       - 'Warn: no topLevel permission defined: .github/workflows/trigger-docs-update.yml:1'
       - 'Info: no jobLevel write permissions found'
-  - name: License
-    score: 10
-    reason: license file detected
+  - name: Packaging
+    score: -1
+    reason: packaging workflow not detected
     details:
-      - 'Info: project has a license file: LICENSE:0'
-      - 'Info: FSF or OSI recognized license: Apache License 2.0: LICENSE:0'
+      - 'Warn: no GitHub/GitLab publishing workflow detected.'
+  - name: Dependency-Update-Tool
+    score: 10
+    reason: update tool detected
+    details:
+      - 'Info: detected update tool: Dependabot: .github/dependabot.yml:1'
   - name: CII-Best-Practices
     score: 0
     reason: no effort to earn an OpenSSF best practices badge detected
@@ -373,6 +367,17 @@ checks:
       - 'Info:   9 out of   9 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:  16 out of  16 third-party GitHubAction dependencies pinned'
       - 'Info:   0 out of   1 pipCommand dependencies pinned'
+  - name: License
+    score: 10
+    reason: license file detected
+    details:
+      - 'Info: project has a license file: LICENSE:0'
+      - 'Info: FSF or OSI recognized license: Apache License 2.0: LICENSE:0'
+  - name: Fuzzing
+    score: 0
+    reason: project is not fuzzed
+    details:
+      - 'Warn: no fuzzer integrations found'
   - name: Signed-Releases
     score: 8
     reason: 5 out of the last 5 releases have a total of 5 signed artifacts.
@@ -387,11 +392,6 @@ checks:
       - 'Warn: release artifact 8.8.0rc3 does not have provenance: https://api.github.com/repos/bazelbuild/bazel/releases/376762941'
       - 'Warn: release artifact 8.8.0rc2 does not have provenance: https://api.github.com/repos/bazelbuild/bazel/releases/372654641'
       - 'Warn: release artifact 8.8.0rc1 does not have provenance: https://api.github.com/repos/bazelbuild/bazel/releases/366438535'
-  - name: Fuzzing
-    score: 0
-    reason: project is not fuzzed
-    details:
-      - 'Warn: no fuzzer integrations found'
   - name: Vulnerabilities
     score: 8
     reason: 2 existing vulnerabilities detected
