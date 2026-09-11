@@ -1,12 +1,10 @@
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: bazel
+- repo: scoop
+  subrepo: main
   binname: bazel
   visiblename: bazel
   version: 9.2.0
-  origversion: 9.2.0-2
+  origversion: null
   status: newest
-  summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
 - repo: alpine_edge
@@ -65,17 +63,6 @@
     - Apache-2.0
   categories:
     - Development/Java
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.2.0
-  origversion: 9.2.0-2
-  status: newest
-  summary: Correct, reproducible, and fast builds for everyone
-  licenses:
-    - Apache-2.0
 - repo: aosc
   srcname: app-devel/bazel
   binname: bazel
@@ -307,6 +294,28 @@
   categories:
     - devel
 - repo: manjaro_stable
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-2
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-2
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
   subrepo: extra
   srcname: bazel
   binname: bazel
@@ -729,6 +738,18 @@
   categories:
     - Building
 - repo: opensuse_leap_15_5
+  subrepo: updates/backports
+  srcname: bazel6
+  visiblename: bazel6
+  version: 6.1.2
+  origversion: 6.1.2-bp155.2.1
+  status: outdated
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: bazel
   visiblename: bazel
@@ -807,18 +828,6 @@
   version: 3.4.1
   origversion: 3.4.1-bp155.2.13
   status: legacy
-  summary: Tool for the automation of building and testing of software
-  licenses:
-    - Apache-2.0
-  categories:
-    - Development/Tools/Building
-- repo: opensuse_leap_15_5
-  subrepo: updates/backports
-  srcname: bazel6
-  visiblename: bazel6
-  version: 6.1.2
-  origversion: 6.1.2-bp155.2.1
-  status: outdated
   summary: Tool for the automation of building and testing of software
   licenses:
     - Apache-2.0
@@ -972,15 +981,6 @@
     - ryoon@netbsd.org
   categories:
     - devel
-- repo: scoop
-  subrepo: main
-  binname: bazel
-  visiblename: bazel
-  version: 9.2.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: slackbuilds
   srcname: development/bazel
   visiblename: development/bazel
