@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 25,837 · **Forks**: 4,601 · **Open issues**: 16,974 · **Contributors**: 1,140
+- **Stars**: 25,842 · **Forks**: 4,602 · **Open issues**: 16,978 · **Contributors**: 1,140
 
 ## Totals (cumulative)
 
-- **Releases**: 267 · **Merged PRs**: 2740 · **Open PRs**: 326 · **Closed issues**: 15543 · **Open issues**: 1431 · **Commits**: 46976
+- **Releases**: 267 · **Merged PRs**: 2740 · **Open PRs**: 331 · **Closed issues**: 15545 · **Open issues**: 1433 · **Commits**: 46976
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 4 | 64 | 75 | 79 | 29 | 356 |
-| last60d | 2026-07-14 | 5 | 157 | 130 | 206 | 58 | 687 |
-| 90d | 2026-06-14 | 8 | 222 | 174 | 339 | 85 | 938 |
-| last180d | 2026-03-16 | 21 | 349 | 231 | 579 | 145 | 1528 |
-| 360d | 2025-09-17 | 55 | 730 | 283 | 1284 | 287 | 2820 |
-| last720d | 2024-09-22 | 100 | 1322 | 312 | 2559 | 566 | 6100 |
+| 30d | 2026-08-14 | 4 | 62 | 81 | 79 | 32 | 307 |
+| last60d | 2026-07-15 | 5 | 157 | 135 | 204 | 60 | 612 |
+| 90d | 2026-06-15 | 8 | 222 | 178 | 337 | 88 | 882 |
+| last180d | 2026-03-17 | 21 | 348 | 235 | 579 | 148 | 1487 |
+| 360d | 2025-09-18 | 55 | 728 | 288 | 1280 | 287 | 2755 |
+| last720d | 2024-09-23 | 100 | 1320 | 317 | 2555 | 564 | 6100 |
 
 ## Release assets
 
@@ -155,4 +155,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T05:07:31Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:23:33Z._
