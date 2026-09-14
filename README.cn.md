@@ -14,11 +14,11 @@ x install bazel
 
 ## 代码洞察
 
-合计: **1,177,535** 行代码（覆盖前 5 种语言、共 **7225** 个文件）。
+合计: **1,177,687** 行代码（覆盖前 5 种语言、共 **7225** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Java | 984,520 | 244,742 | 148,848 | 5831 |
+| Java | 984,672 | 244,745 | 148,882 | 5831 |
 | Sh | 79,487 | 12,937 | 14,937 | 295 |
 | Cpp | 36,080 | 7,418 | 5,881 | 205 |
 | Svg | 31,375 | 3,396 | 2,162 | 799 |
@@ -30,8 +30,8 @@ x install bazel
 
 评分最低的几项:
 
-- **CI-Tests** (-1/10) — no pull request found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **CI-Tests** (-1/10) — no pull request found
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -43,27 +43,27 @@ x install bazel
 ## 发布
 
 - **最新版本**: `8.8.0` (2026-08-31)
-- **最近提交**: 2026-09-11
+- **最近提交**: 2026-09-13
 - **Release 含资产**: 63 个
 
 ## 流行度
 
-- **Star**: 25,842 · **Fork**: 4,602 · **开放 issue**: 16,978 · **贡献者**: 1,140
+- **Star**: 25,846 · **Fork**: 4,607 · **开放 issue**: 16,981 · **贡献者**: 1,140
 
 ## 累计统计
 
-- **发布数**: 267 · **已合并 PR**: 2740 · **开放 PR**: 331 · **已关闭 issue**: 15545 · **开放 issue**: 1433 · **提交数**: 46976
+- **发布数**: 267 · **已合并 PR**: 2740 · **开放 PR**: 340 · **已关闭 issue**: 15545 · **开放 issue**: 1436 · **提交数**: 46977
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 4 | 62 | 81 | 79 | 32 | 307 |
-| last60d | 2026-07-15 | 5 | 157 | 135 | 204 | 60 | 612 |
-| 90d | 2026-06-15 | 8 | 222 | 178 | 337 | 88 | 882 |
-| last180d | 2026-03-17 | 21 | 348 | 235 | 579 | 148 | 1487 |
-| 360d | 2025-09-18 | 55 | 728 | 288 | 1280 | 287 | 2755 |
-| last720d | 2024-09-23 | 100 | 1320 | 317 | 2555 | 564 | 6100 |
+| 30d | 2026-08-15 | 4 | 62 | 91 | 78 | 35 | 308 |
+| last60d | 2026-07-16 | 5 | 151 | 142 | 202 | 63 | 613 |
+| 90d | 2026-06-16 | 8 | 219 | 187 | 333 | 90 | 883 |
+| last180d | 2026-03-18 | 21 | 347 | 244 | 577 | 151 | 1488 |
+| 360d | 2025-09-19 | 55 | 725 | 297 | 1278 | 290 | 2756 |
+| last720d | 2024-09-24 | 100 | 1315 | 326 | 2547 | 564 | 6085 |
 
 ## Release 资产
 
@@ -133,19 +133,6 @@ x install bazel
 | [bazel_nojdk-9.2.0-windows-x86_64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel_nojdk-9.2.0-windows-x86_64.zip.sha256) | 103 B | `native/win/x64` |
 | [bazel_nojdk-9.2.0-windows-x86_64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.2.0/bazel_nojdk-9.2.0-windows-x86_64.zip.sig) | 566 B | `native/win/x64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/bazel) 上共有 **96** 个发行版报告此项目。**20** 个 ✅ 已是最新上游版本，**32** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Arch | `9.2.0` | ✅ latest |
-| Homebrew | `9.2.0` | ✅ latest |
-| Nix unstable | `7.6.0` | 🪦 legacy |
-| Void | `8.3.1` | ⚠️ outdated |
-| Alpine edge | `9.2.0` | ✅ latest |
-| openSUSE Tumbleweed | `8.4.1` | ⚠️ outdated |
-
 ## 改进这些数据
 
 bazel 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `bazel` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -155,4 +142,4 @@ bazel 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:23:34Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:31:23Z._
