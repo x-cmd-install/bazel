@@ -4,7 +4,7 @@
 
 a fast, scalable, multi-language and extensible build system
 
-[![x-cmd/install — bazel Code Quality Monitoring Repo Card](https://repo.x-cmd.io/bazel.svg?lang=zh)](https://x-cmd.com/install/bazel)
+[![x-cmd/install — bazel Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/bazel.svg?lang=zh)](https://x-cmd.com/install/bazel)
 
 ## 安装
 
@@ -14,24 +14,24 @@ x install bazel
 
 ## 代码洞察
 
-合计: **1,186,946** 行代码（覆盖前 5 种语言、共 **7237** 个文件）。
+合计: **1,187,794** 行代码（覆盖前 5 种语言、共 **7239** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Java | 991,466 | 245,824 | 149,849 | 5837 |
-| Sh | 80,105 | 13,051 | 15,065 | 298 |
-| Cpp | 37,728 | 7,539 | 6,053 | 210 |
+| Java | 992,072 | 245,980 | 149,946 | 5838 |
+| Sh | 80,200 | 13,074 | 15,077 | 299 |
+| Cpp | 37,820 | 7,569 | 6,071 | 210 |
 | Svg | 31,375 | 3,396 | 2,162 | 799 |
-| Python | 26,265 | 2,724 | 3,001 | 93 |
+| Python | 26,320 | 2,730 | 3,003 | 93 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.9 / 10**
+总评分: **6 / 10**
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **CI-Tests** (-1/10) — no pull request found
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -42,28 +42,28 @@ x install bazel
 
 ## 发布
 
-- **最新版本**: `9.3.0rc2` (2026-08-31)
-- **最近提交**: 2026-09-21
+- **最新版本**: `8.8.1rc2` (2026-08-31)
+- **最近提交**: 2026-09-22
 - **Release 含资产**: 63 个
 
 ## 流行度
 
-- **Star**: 25,874 · **Fork**: 4,621 · **开放 issue**: 17,020 · **贡献者**: 1,145
+- **Star**: 25,878 · **Fork**: 4,624 · **开放 issue**: 17,023 · **贡献者**: 1,145
 
 ## 累计统计
 
-- **发布数**: 269 · **已合并 PR**: 2761 · **开放 PR**: 355 · **已关闭 issue**: 15602 · **开放 issue**: 1418 · **提交数**: 47139
+- **发布数**: 271 · **已合并 PR**: 2770 · **开放 PR**: 349 · **已关闭 issue**: 15610 · **开放 issue**: 1413 · **提交数**: 47171
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 5 | 69 | 115 | 80 | 36 | 380 |
-| last60d | 2026-07-24 | 7 | 136 | 153 | 196 | 61 | 704 |
-| 90d | 2026-06-24 | 10 | 215 | 190 | 339 | 87 | 972 |
-| last180d | 2026-03-26 | 23 | 343 | 253 | 600 | 146 | 1583 |
-| 360d | 2025-09-27 | 56 | 739 | 311 | 1302 | 282 | 2861 |
-| last720d | 2024-10-02 | 100 | 1319 | 341 | 2560 | 545 | 6110 |
+| 30d | 2026-08-24 | 7 | 78 | 108 | 81 | 31 | 409 |
+| last60d | 2026-07-25 | 9 | 145 | 146 | 202 | 57 | 733 |
+| 90d | 2026-06-25 | 12 | 221 | 182 | 341 | 81 | 1001 |
+| last180d | 2026-03-27 | 25 | 352 | 247 | 606 | 140 | 1612 |
+| 360d | 2025-09-28 | 58 | 748 | 305 | 1310 | 277 | 2890 |
+| last720d | 2024-10-03 | 100 | 1327 | 335 | 2565 | 538 | 6126 |
 
 ## Release 资产
 
@@ -142,4 +142,4 @@ bazel 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:46:43Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:38:13Z._
