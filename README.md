@@ -30,9 +30,9 @@ Overall score: **5.7 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
 - **CI-Tests** (-1/10) — no pull request found
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `10.0.0rc1` (2026-10-07)
-- **Last commit**: 2026-10-09
+- **Last commit**: 2026-10-11
 - **Assets in release**: 63
 
 ## Popularity
 
-- **Stars**: 25,934 · **Forks**: 4,642 · **Open issues**: 17,189 · **Contributors**: 1,147
+- **Stars**: 25,939 · **Forks**: 4,644 · **Open issues**: 17,191 · **Contributors**: 1,147
 
 ## Totals (cumulative)
 
-- **Releases**: 277 · **Merged PRs**: 2795 · **Open PRs**: 456 · **Closed issues**: 15684 · **Open issues**: 1505 · **Commits**: 47474
+- **Releases**: 277 · **Merged PRs**: 2795 · **Open PRs**: 465 · **Closed issues**: 15687 · **Open issues**: 1504 · **Commits**: 47475
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 10 | 50 | 197 | 70 | 145 | 316 |
-| last60d | 2026-08-12 | 14 | 123 | 243 | 163 | 165 | 767 |
-| 90d | 2026-07-13 | 16 | 215 | 276 | 311 | 187 | 1081 |
-| last180d | 2026-04-14 | 26 | 352 | 343 | 603 | 249 | 1693 |
-| 360d | 2025-10-16 | 60 | 739 | 410 | 1303 | 375 | 2962 |
-| last720d | 2024-10-21 | 100 | 1312 | 441 | 2536 | 646 | 6259 |
+| 30d | 2026-09-12 | 10 | 50 | 206 | 68 | 146 | 317 |
+| last60d | 2026-08-13 | 14 | 118 | 251 | 160 | 165 | 768 |
+| 90d | 2026-07-14 | 15 | 212 | 284 | 292 | 189 | 1082 |
+| last180d | 2026-04-15 | 25 | 349 | 352 | 600 | 250 | 1694 |
+| 360d | 2025-10-17 | 60 | 734 | 418 | 1297 | 375 | 2963 |
+| last720d | 2024-10-22 | 100 | 1311 | 450 | 2530 | 645 | 6256 |
 
 ## Release assets
 
@@ -142,4 +142,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:07:31Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T06:28:37Z._
