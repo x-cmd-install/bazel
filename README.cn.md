@@ -14,25 +14,25 @@ x install bazel
 
 ## 代码洞察
 
-合计: **1,205,405** 行代码（覆盖前 5 种语言、共 **7340** 个文件）。
+合计: **1,206,191** 行代码（覆盖前 5 种语言、共 **7338** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Java | 1,002,649 | 247,520 | 151,281 | 5849 |
-| Sh | 80,711 | 13,119 | 15,148 | 298 |
-| Cpp | 39,028 | 7,571 | 6,071 | 210 |
+| Java | 1,003,435 | 247,532 | 151,333 | 5847 |
+| Sh | 80,749 | 13,125 | 15,152 | 298 |
+| Cpp | 39,032 | 7,571 | 6,071 | 210 |
 | Svg | 35,595 | 4,188 | 2,162 | 887 |
-| Python | 27,260 | 2,810 | 3,119 | 96 |
+| Python | 27,278 | 2,811 | 3,124 | 96 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.7 / 10**
+总评分: **5.6 / 10**
 
 评分最低的几项:
 
+- **Packaging** (-1/10) — packaging workflow not detected
 - **CI-Tests** (-1/10) — no pull request found
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -42,96 +42,96 @@ x install bazel
 
 ## 发布
 
-- **最新版本**: `10.0.0rc1` (2026-10-07)
-- **最近提交**: 2026-10-20
+- **最新版本**: `9.3.1` (2026-10-21)
+- **最近提交**: 2026-10-21
 - **Release 含资产**: 63 个
 
 ## 流行度
 
-- **Star**: 25,968 · **Fork**: 4,651 · **开放 issue**: 17,236 · **贡献者**: 1,149
+- **Star**: 25,970 · **Fork**: 4,651 · **开放 issue**: 17,254 · **贡献者**: 1,150
 
 ## 累计统计
 
-- **发布数**: 277 · **已合并 PR**: 2820 · **开放 PR**: 486 · **已关闭 issue**: 15731 · **开放 issue**: 1505 · **提交数**: 47531
+- **发布数**: 281 · **已合并 PR**: 2830 · **开放 PR**: 490 · **已关闭 issue**: 15746 · **开放 issue**: 1508 · **提交数**: 47577
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 8 | 58 | 215 | 81 | 146 | 256 |
-| last60d | 2026-08-21 | 13 | 128 | 278 | 163 | 171 | 753 |
-| 90d | 2026-07-22 | 15 | 203 | 304 | 288 | 197 | 1061 |
-| last180d | 2026-04-23 | 23 | 368 | 379 | 616 | 252 | 1695 |
-| 360d | 2025-10-25 | 59 | 747 | 440 | 1310 | 381 | 2921 |
-| last720d | 2024-10-30 | 100 | 1307 | 473 | 2528 | 643 | 6227 |
+| 30d | 2026-09-21 | 12 | 64 | 218 | 88 | 147 | 290 |
+| last60d | 2026-08-22 | 17 | 138 | 284 | 178 | 174 | 787 |
+| 90d | 2026-07-23 | 19 | 207 | 308 | 296 | 200 | 1095 |
+| last180d | 2026-04-24 | 27 | 378 | 382 | 629 | 253 | 1729 |
+| 360d | 2025-10-26 | 63 | 756 | 445 | 1325 | 384 | 2955 |
+| last720d | 2024-10-31 | 100 | 1316 | 477 | 2533 | 645 | 6254 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [bazel-9.3.0-darwin-arm64](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-arm64) | 68.2 MiB | `native/darwin/arm64` |
-| [bazel-9.3.0-darwin-arm64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-arm64.sha256) | 91 B | `native/darwin/arm64` |
-| [bazel-9.3.0-darwin-arm64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-arm64.sig) | 566 B | `native/darwin/arm64` |
-| [bazel-9.3.0-darwin-x86_64](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-x86_64) | 70.1 MiB | `native/darwin/x64` |
-| [bazel-9.3.0-darwin-x86_64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-x86_64.sha256) | 92 B | `native/darwin/x64` |
-| [bazel-9.3.0-darwin-x86_64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-x86_64.sig) | 566 B | `native/darwin/x64` |
-| [bazel-9.3.0-dist.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-dist.zip) | 211.1 MiB | `other` |
-| [bazel-9.3.0-dist.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-dist.zip.sha256) | 87 B | `other` |
-| [bazel-9.3.0-dist.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-dist.zip.sig) | 566 B | `other` |
-| [bazel-9.3.0-installer-darwin-arm64.sh](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-darwin-arm64.sh) | 60.7 MiB | `native/darwin/arm64` |
-| [bazel-9.3.0-installer-darwin-arm64.sh.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-darwin-arm64.sh.sha256) | 104 B | `native/darwin/arm64` |
-| [bazel-9.3.0-installer-darwin-arm64.sh.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-darwin-arm64.sh.sig) | 566 B | `native/darwin/arm64` |
-| [bazel-9.3.0-installer-darwin-x86_64.sh](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-darwin-x86_64.sh) | 62.2 MiB | `native/darwin/x64` |
-| [bazel-9.3.0-installer-darwin-x86_64.sh.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-darwin-x86_64.sh.sha256) | 105 B | `native/darwin/x64` |
-| [bazel-9.3.0-installer-darwin-x86_64.sh.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-darwin-x86_64.sh.sig) | 566 B | `native/darwin/x64` |
-| [bazel-9.3.0-installer-linux-x86_64.sh](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-linux-x86_64.sh) | 65.3 MiB | `native/linux/x64` |
-| [bazel-9.3.0-installer-linux-x86_64.sh.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-linux-x86_64.sh.sha256) | 104 B | `native/linux/x64` |
-| [bazel-9.3.0-installer-linux-x86_64.sh.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-installer-linux-x86_64.sh.sig) | 566 B | `native/linux/x64` |
-| [bazel-9.3.0-linux-arm64](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-arm64) | 71.4 MiB | `native/linux/arm64` |
-| [bazel-9.3.0-linux-arm64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-arm64.sha256) | 90 B | `native/linux/arm64` |
-| [bazel-9.3.0-linux-arm64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-arm64.sig) | 566 B | `native/linux/arm64` |
-| [bazel-9.3.0-linux-x86_64](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-x86_64) | 73.5 MiB | `native/linux/x64` |
-| [bazel-9.3.0-linux-x86_64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-x86_64.sha256) | 91 B | `native/linux/x64` |
-| [bazel-9.3.0-linux-x86_64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-x86_64.sig) | 566 B | `native/linux/x64` |
-| [bazel-9.3.0-windows-arm64.exe](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-arm64.exe) | 63.8 MiB | `native/win/arm64` |
-| [bazel-9.3.0-windows-arm64.exe.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-arm64.exe.sha256) | 96 B | `native/win/arm64` |
-| [bazel-9.3.0-windows-arm64.exe.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-arm64.exe.sig) | 566 B | `native/win/arm64` |
-| [bazel-9.3.0-windows-arm64.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-arm64.zip) | 59.4 MiB | `native/win/arm64` |
-| [bazel-9.3.0-windows-arm64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-arm64.zip.sha256) | 96 B | `native/win/arm64` |
-| [bazel-9.3.0-windows-arm64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-arm64.zip.sig) | 566 B | `native/win/arm64` |
-| [bazel-9.3.0-windows-x86_64.exe](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-x86_64.exe) | 65.3 MiB | `native/win/x64` |
-| [bazel-9.3.0-windows-x86_64.exe.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-x86_64.exe.sha256) | 97 B | `native/win/x64` |
-| [bazel-9.3.0-windows-x86_64.exe.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-x86_64.exe.sig) | 566 B | `native/win/x64` |
-| [bazel-9.3.0-windows-x86_64.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-x86_64.zip) | 61.3 MiB | `native/win/x64` |
-| [bazel-9.3.0-windows-x86_64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-x86_64.zip.sha256) | 97 B | `native/win/x64` |
-| [bazel-9.3.0-windows-x86_64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-windows-x86_64.zip.sig) | 566 B | `native/win/x64` |
-| [bazel_9.3.0-linux-x86_64.deb](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_9.3.0-linux-x86_64.deb) | 65.1 MiB | `native/linux/x64` |
-| [bazel_9.3.0-linux-x86_64.deb.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_9.3.0-linux-x86_64.deb.sha256) | 95 B | `native/linux/x64` |
-| [bazel_9.3.0-linux-x86_64.deb.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_9.3.0-linux-x86_64.deb.sig) | 566 B | `native/linux/x64` |
-| [bazel_nojdk-9.3.0-darwin-arm64](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-darwin-arm64) | 51.0 MiB | `native/darwin/arm64` |
-| [bazel_nojdk-9.3.0-darwin-arm64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-darwin-arm64.sha256) | 97 B | `native/darwin/arm64` |
-| [bazel_nojdk-9.3.0-darwin-arm64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-darwin-arm64.sig) | 566 B | `native/darwin/arm64` |
-| [bazel_nojdk-9.3.0-darwin-x86_64](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-darwin-x86_64) | 51.9 MiB | `native/darwin/x64` |
-| [bazel_nojdk-9.3.0-darwin-x86_64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-darwin-x86_64.sha256) | 98 B | `native/darwin/x64` |
-| [bazel_nojdk-9.3.0-darwin-x86_64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-darwin-x86_64.sig) | 566 B | `native/darwin/x64` |
-| [bazel_nojdk-9.3.0-linux-arm64](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-linux-arm64) | 50.8 MiB | `native/linux/arm64` |
-| [bazel_nojdk-9.3.0-linux-arm64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-linux-arm64.sha256) | 96 B | `native/linux/arm64` |
-| [bazel_nojdk-9.3.0-linux-arm64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-linux-arm64.sig) | 566 B | `native/linux/arm64` |
-| [bazel_nojdk-9.3.0-linux-x86_64](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-linux-x86_64) | 52.6 MiB | `native/linux/x64` |
-| [bazel_nojdk-9.3.0-linux-x86_64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-linux-x86_64.sha256) | 97 B | `native/linux/x64` |
-| [bazel_nojdk-9.3.0-linux-x86_64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-linux-x86_64.sig) | 566 B | `native/linux/x64` |
-| [bazel_nojdk-9.3.0-windows-arm64.exe](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-arm64.exe) | 46.8 MiB | `native/win/arm64` |
-| [bazel_nojdk-9.3.0-windows-arm64.exe.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-arm64.exe.sha256) | 102 B | `native/win/arm64` |
-| [bazel_nojdk-9.3.0-windows-arm64.exe.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-arm64.exe.sig) | 566 B | `native/win/arm64` |
-| [bazel_nojdk-9.3.0-windows-arm64.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-arm64.zip) | 42.5 MiB | `native/win/arm64` |
-| [bazel_nojdk-9.3.0-windows-arm64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-arm64.zip.sha256) | 102 B | `native/win/arm64` |
-| [bazel_nojdk-9.3.0-windows-arm64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-arm64.zip.sig) | 566 B | `native/win/arm64` |
-| [bazel_nojdk-9.3.0-windows-x86_64.exe](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-x86_64.exe) | 46.6 MiB | `native/win/x64` |
-| [bazel_nojdk-9.3.0-windows-x86_64.exe.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-x86_64.exe.sha256) | 103 B | `native/win/x64` |
-| [bazel_nojdk-9.3.0-windows-x86_64.exe.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-x86_64.exe.sig) | 566 B | `native/win/x64` |
-| [bazel_nojdk-9.3.0-windows-x86_64.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-x86_64.zip) | 42.8 MiB | `native/win/x64` |
-| [bazel_nojdk-9.3.0-windows-x86_64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-x86_64.zip.sha256) | 103 B | `native/win/x64` |
-| [bazel_nojdk-9.3.0-windows-x86_64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel_nojdk-9.3.0-windows-x86_64.zip.sig) | 566 B | `native/win/x64` |
+| [bazel-9.3.1-darwin-arm64](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-darwin-arm64) | 68.2 MiB | `native/darwin/arm64` |
+| [bazel-9.3.1-darwin-arm64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-darwin-arm64.sha256) | 91 B | `native/darwin/arm64` |
+| [bazel-9.3.1-darwin-arm64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-darwin-arm64.sig) | 566 B | `native/darwin/arm64` |
+| [bazel-9.3.1-darwin-x86_64](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-darwin-x86_64) | 70.1 MiB | `native/darwin/x64` |
+| [bazel-9.3.1-darwin-x86_64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-darwin-x86_64.sha256) | 92 B | `native/darwin/x64` |
+| [bazel-9.3.1-darwin-x86_64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-darwin-x86_64.sig) | 566 B | `native/darwin/x64` |
+| [bazel-9.3.1-dist.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-dist.zip) | 211.1 MiB | `other` |
+| [bazel-9.3.1-dist.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-dist.zip.sha256) | 87 B | `other` |
+| [bazel-9.3.1-dist.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-dist.zip.sig) | 566 B | `other` |
+| [bazel-9.3.1-installer-darwin-arm64.sh](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-darwin-arm64.sh) | 60.7 MiB | `native/darwin/arm64` |
+| [bazel-9.3.1-installer-darwin-arm64.sh.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-darwin-arm64.sh.sha256) | 104 B | `native/darwin/arm64` |
+| [bazel-9.3.1-installer-darwin-arm64.sh.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-darwin-arm64.sh.sig) | 566 B | `native/darwin/arm64` |
+| [bazel-9.3.1-installer-darwin-x86_64.sh](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-darwin-x86_64.sh) | 62.2 MiB | `native/darwin/x64` |
+| [bazel-9.3.1-installer-darwin-x86_64.sh.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-darwin-x86_64.sh.sha256) | 105 B | `native/darwin/x64` |
+| [bazel-9.3.1-installer-darwin-x86_64.sh.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-darwin-x86_64.sh.sig) | 566 B | `native/darwin/x64` |
+| [bazel-9.3.1-installer-linux-x86_64.sh](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-linux-x86_64.sh) | 65.3 MiB | `native/linux/x64` |
+| [bazel-9.3.1-installer-linux-x86_64.sh.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-linux-x86_64.sh.sha256) | 104 B | `native/linux/x64` |
+| [bazel-9.3.1-installer-linux-x86_64.sh.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-installer-linux-x86_64.sh.sig) | 566 B | `native/linux/x64` |
+| [bazel-9.3.1-linux-arm64](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-linux-arm64) | 71.4 MiB | `native/linux/arm64` |
+| [bazel-9.3.1-linux-arm64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-linux-arm64.sha256) | 90 B | `native/linux/arm64` |
+| [bazel-9.3.1-linux-arm64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-linux-arm64.sig) | 566 B | `native/linux/arm64` |
+| [bazel-9.3.1-linux-x86_64](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-linux-x86_64) | 73.5 MiB | `native/linux/x64` |
+| [bazel-9.3.1-linux-x86_64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-linux-x86_64.sha256) | 91 B | `native/linux/x64` |
+| [bazel-9.3.1-linux-x86_64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-linux-x86_64.sig) | 566 B | `native/linux/x64` |
+| [bazel-9.3.1-windows-arm64.exe](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-arm64.exe) | 63.8 MiB | `native/win/arm64` |
+| [bazel-9.3.1-windows-arm64.exe.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-arm64.exe.sha256) | 96 B | `native/win/arm64` |
+| [bazel-9.3.1-windows-arm64.exe.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-arm64.exe.sig) | 566 B | `native/win/arm64` |
+| [bazel-9.3.1-windows-arm64.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-arm64.zip) | 59.4 MiB | `native/win/arm64` |
+| [bazel-9.3.1-windows-arm64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-arm64.zip.sha256) | 96 B | `native/win/arm64` |
+| [bazel-9.3.1-windows-arm64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-arm64.zip.sig) | 566 B | `native/win/arm64` |
+| [bazel-9.3.1-windows-x86_64.exe](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-x86_64.exe) | 65.3 MiB | `native/win/x64` |
+| [bazel-9.3.1-windows-x86_64.exe.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-x86_64.exe.sha256) | 97 B | `native/win/x64` |
+| [bazel-9.3.1-windows-x86_64.exe.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-x86_64.exe.sig) | 566 B | `native/win/x64` |
+| [bazel-9.3.1-windows-x86_64.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-x86_64.zip) | 61.3 MiB | `native/win/x64` |
+| [bazel-9.3.1-windows-x86_64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-x86_64.zip.sha256) | 97 B | `native/win/x64` |
+| [bazel-9.3.1-windows-x86_64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel-9.3.1-windows-x86_64.zip.sig) | 566 B | `native/win/x64` |
+| [bazel_9.3.1-linux-x86_64.deb](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_9.3.1-linux-x86_64.deb) | 65.1 MiB | `native/linux/x64` |
+| [bazel_9.3.1-linux-x86_64.deb.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_9.3.1-linux-x86_64.deb.sha256) | 95 B | `native/linux/x64` |
+| [bazel_9.3.1-linux-x86_64.deb.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_9.3.1-linux-x86_64.deb.sig) | 566 B | `native/linux/x64` |
+| [bazel_nojdk-9.3.1-darwin-arm64](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-darwin-arm64) | 51.0 MiB | `native/darwin/arm64` |
+| [bazel_nojdk-9.3.1-darwin-arm64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-darwin-arm64.sha256) | 97 B | `native/darwin/arm64` |
+| [bazel_nojdk-9.3.1-darwin-arm64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-darwin-arm64.sig) | 566 B | `native/darwin/arm64` |
+| [bazel_nojdk-9.3.1-darwin-x86_64](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-darwin-x86_64) | 51.9 MiB | `native/darwin/x64` |
+| [bazel_nojdk-9.3.1-darwin-x86_64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-darwin-x86_64.sha256) | 98 B | `native/darwin/x64` |
+| [bazel_nojdk-9.3.1-darwin-x86_64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-darwin-x86_64.sig) | 566 B | `native/darwin/x64` |
+| [bazel_nojdk-9.3.1-linux-arm64](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-linux-arm64) | 50.8 MiB | `native/linux/arm64` |
+| [bazel_nojdk-9.3.1-linux-arm64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-linux-arm64.sha256) | 96 B | `native/linux/arm64` |
+| [bazel_nojdk-9.3.1-linux-arm64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-linux-arm64.sig) | 566 B | `native/linux/arm64` |
+| [bazel_nojdk-9.3.1-linux-x86_64](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-linux-x86_64) | 52.6 MiB | `native/linux/x64` |
+| [bazel_nojdk-9.3.1-linux-x86_64.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-linux-x86_64.sha256) | 97 B | `native/linux/x64` |
+| [bazel_nojdk-9.3.1-linux-x86_64.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-linux-x86_64.sig) | 566 B | `native/linux/x64` |
+| [bazel_nojdk-9.3.1-windows-arm64.exe](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-arm64.exe) | 46.8 MiB | `native/win/arm64` |
+| [bazel_nojdk-9.3.1-windows-arm64.exe.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-arm64.exe.sha256) | 102 B | `native/win/arm64` |
+| [bazel_nojdk-9.3.1-windows-arm64.exe.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-arm64.exe.sig) | 566 B | `native/win/arm64` |
+| [bazel_nojdk-9.3.1-windows-arm64.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-arm64.zip) | 42.5 MiB | `native/win/arm64` |
+| [bazel_nojdk-9.3.1-windows-arm64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-arm64.zip.sha256) | 102 B | `native/win/arm64` |
+| [bazel_nojdk-9.3.1-windows-arm64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-arm64.zip.sig) | 566 B | `native/win/arm64` |
+| [bazel_nojdk-9.3.1-windows-x86_64.exe](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-x86_64.exe) | 46.6 MiB | `native/win/x64` |
+| [bazel_nojdk-9.3.1-windows-x86_64.exe.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-x86_64.exe.sha256) | 103 B | `native/win/x64` |
+| [bazel_nojdk-9.3.1-windows-x86_64.exe.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-x86_64.exe.sig) | 566 B | `native/win/x64` |
+| [bazel_nojdk-9.3.1-windows-x86_64.zip](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-x86_64.zip) | 42.8 MiB | `native/win/x64` |
+| [bazel_nojdk-9.3.1-windows-x86_64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-x86_64.zip.sha256) | 103 B | `native/win/x64` |
+| [bazel_nojdk-9.3.1-windows-x86_64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-x86_64.zip.sig) | 566 B | `native/win/x64` |
 
 ## 改进这些数据
 
@@ -142,4 +142,4 @@ bazel 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261020.yml` · 2026-10-20T05:14:37Z._
+_数据快照: `data/card/261021.yml` · 2026-10-21T05:10:54Z._
