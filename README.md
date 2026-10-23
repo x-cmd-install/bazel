@@ -14,15 +14,15 @@ x install bazel
 
 ## Code insight
 
-Total: **1,206,470** lines of code across **7336** files in the top 5 languages.
+Total: **1,207,394** lines of code across **7332** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 1,004,100 | 247,830 | 151,431 | 5852 |
-| Sh | 80,635 | 13,067 | 15,121 | 295 |
-| Cpp | 39,032 | 7,571 | 6,071 | 210 |
+| Java | 1,004,778 | 248,004 | 151,475 | 5848 |
+| Sh | 80,688 | 13,076 | 15,130 | 295 |
+| Cpp | 39,054 | 7,570 | 6,077 | 210 |
 | Svg | 35,595 | 4,188 | 2,162 | 887 |
-| Python | 27,005 | 2,762 | 3,074 | 92 |
+| Python | 27,176 | 2,780 | 3,087 | 92 |
 
 ## OpenSSF Scorecard
 
@@ -30,9 +30,9 @@ Overall score: **5.5 / 10**
 
 Lowest-scoring checks:
 
-- **CI-Tests** (-1/10) — no pull request found
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CI-Tests** (-1/10) — no pull request found
 
 ## Source
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `9.3.1` (2026-10-21)
-- **Last commit**: 2026-10-21
+- **Latest**: `10.0.0rc2` (2026-10-21)
+- **Last commit**: 2026-10-23
 - **Assets in release**: 63
 
 ## Popularity
 
-- **Stars**: 25,974 · **Forks**: 4,654 · **Open issues**: 17,278 · **Contributors**: 1,150
+- **Stars**: 25,981 · **Forks**: 4,657 · **Open issues**: 17,289 · **Contributors**: 1,150
 
 ## Totals (cumulative)
 
-- **Releases**: 281 · **Merged PRs**: 2841 · **Open PRs**: 497 · **Closed issues**: 15754 · **Open issues**: 1524 · **Commits**: 47602
+- **Releases**: 283 · **Merged PRs**: 2850 · **Open PRs**: 493 · **Closed issues**: 15766 · **Open issues**: 1523 · **Commits**: 47634
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 12 | 69 | 222 | 95 | 161 | 311 |
-| last60d | 2026-08-23 | 17 | 149 | 293 | 186 | 189 | 808 |
-| 90d | 2026-07-24 | 19 | 216 | 316 | 302 | 214 | 1116 |
-| last180d | 2026-04-25 | 27 | 389 | 390 | 638 | 268 | 1750 |
-| 360d | 2025-10-27 | 63 | 766 | 452 | 1330 | 397 | 2976 |
-| last720d | 2024-11-01 | 100 | 1326 | 484 | 2542 | 659 | 6265 |
+| 30d | 2026-09-23 | 12 | 78 | 214 | 104 | 157 | 341 |
+| last60d | 2026-08-24 | 19 | 158 | 287 | 191 | 188 | 838 |
+| 90d | 2026-07-25 | 21 | 225 | 311 | 313 | 213 | 1146 |
+| last180d | 2026-04-26 | 29 | 398 | 386 | 650 | 267 | 1780 |
+| 360d | 2025-10-28 | 64 | 772 | 447 | 1334 | 395 | 3006 |
+| last720d | 2024-11-02 | 100 | 1335 | 480 | 2553 | 658 | 6289 |
 
 ## Release assets
 
@@ -133,6 +133,19 @@ Lowest-scoring checks:
 | [bazel_nojdk-9.3.1-windows-x86_64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-x86_64.zip.sha256) | 103 B | `native/win/x64` |
 | [bazel_nojdk-9.3.1-windows-x86_64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.1/bazel_nojdk-9.3.1-windows-x86_64.zip.sig) | 566 B | `native/win/x64` |
 
+## Distribution status
+
+Reported by **96** distros on [repology.org](https://repology.org/project/bazel). **12** are ✅ on the latest upstream release, **39** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `9.3.1` | ✅ latest |
+| Homebrew | `9.3.1` | ✅ latest |
+| Nix unstable | `7.6.0` | 🪦 legacy |
+| Void | `8.3.1` | ⚠️ outdated |
+| Alpine edge | `9.3.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `8.4.1` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `bazel` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -142,4 +155,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:16:55Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:12:23Z._
