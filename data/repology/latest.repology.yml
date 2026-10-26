@@ -1,40 +1,63 @@
-- repo: arch
-  subrepo: extra
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.1
-  origversion: 9.3.1-1
-  status: newest
-  summary: Correct, reproducible, and fast builds for everyone
-  licenses:
-    - Apache-2.0
-- repo: homebrew
-  srcname: bazel
-  visiblename: bazel
-  version: 9.3.1
-  origversion: null
-  status: newest
-  summary: Google's own build tool
-- repo: homebrew
-  srcname: bazel@7
-  visiblename: bazel@7
-  version: 7.7.2
-  origversion: null
+- repo: freebsd
+  srcname: devel/bazel5
+  binname: bazel5
+  visiblename: devel/bazel5
+  version: 5.4.1
+  origversion: 5.4.1_2
   status: legacy
-  summary: Google's own build tool
-- repo: aosc
-  srcname: app-devel/bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.1.0
-  origversion: null
-  status: outdated
-  summary: Tool to automate software builds and tests
+  summary: Fast and correct build system
   maintainers:
-    - fallback-mnt-aosc@repology
+    - vishwin@freebsd.org
   categories:
     - devel
+- repo: freebsd
+  srcname: devel/bazel7
+  binname: bazel7
+  visiblename: devel/bazel7
+  version: 7.7.1
+  origversion: null
+  status: legacy
+  summary: Fast and correct build system (LTS 7)
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - devel
+- repo: freebsd
+  srcname: devel/bazel8
+  binname: bazel8
+  visiblename: devel/bazel8
+  version: 8.8.2
+  origversion: null
+  status: legacy
+  summary: Fast and correct build system (LTS 8)
+  maintainers:
+    - delphij@freebsd.org
+  categories:
+    - devel
+- repo: aur
+  srcname: bazel3-bin
+  binname: bazel3-bin
+  visiblename: bazel3-bin
+  version: 3.7.2
+  origversion: 3.7.2-1
+  status: outdated
+  summary: Build and test software of any size, quickly and reliably.
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - Apache
+- repo: exherbo
+  subrepo: CleverCloud
+  srcname: dev-util/bazel
+  visiblename: dev-util/bazel
+  version: 4.2.1
+  origversion: null
+  status: outdated
+  summary: Build and test software of any size, quickly and reliably
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - dev-util
 - repo: alpine_edge
   subrepo: testing
   srcname: bazel
@@ -91,18 +114,29 @@
     - Apache-2.0
   categories:
     - Development/Java
-- repo: aur
-  srcname: bazel3-bin
-  binname: bazel3-bin
-  visiblename: bazel3-bin
-  version: 3.7.2
-  origversion: 3.7.2-1
+- repo: aosc
+  srcname: app-devel/bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.1.0
+  origversion: null
   status: outdated
-  summary: Build and test software of any size, quickly and reliably.
+  summary: Tool to automate software builds and tests
   maintainers:
-    - fallback-mnt-aur@repology
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
+- repo: arch
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.1
+  origversion: 9.3.1-1
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
   licenses:
-    - Apache
+    - Apache-2.0
 - repo: artix
   subrepo: world
   srcname: bazel
@@ -125,16 +159,16 @@
 - repo: chocolatey
   binname: bazel
   visiblename: bazel (Install)
-  version: 9.3.0
+  version: 9.3.1
   origversion: null
-  status: outdated
+  status: newest
   summary: Correct, reproducible, fast builds for everyone
 - repo: chromebrew
   srcname: bazel
   visiblename: bazel
-  version: 9.3.0
+  version: 9.3.1
   origversion: null
-  status: outdated
+  status: newest
   summary: a fast, scalable, multi-language and extensible build system
   licenses:
     - Apache-2.0
@@ -180,54 +214,23 @@
   version: 4.0.0
   origversion: null
   status: legacy
-- repo: exherbo
-  subrepo: CleverCloud
-  srcname: dev-util/bazel
-  visiblename: dev-util/bazel
-  version: 4.2.1
-  origversion: null
-  status: outdated
-  summary: Build and test software of any size, quickly and reliably
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - dev-util
-- repo: freebsd
-  srcname: devel/bazel5
-  binname: bazel5
-  visiblename: devel/bazel5
-  version: 5.4.1
-  origversion: 5.4.1_2
-  status: legacy
-  summary: Fast and correct build system
-  maintainers:
-    - vishwin@freebsd.org
-  categories:
-    - devel
-- repo: freebsd
-  srcname: devel/bazel7
-  binname: bazel7
-  visiblename: devel/bazel7
-  version: 7.7.1
+- repo: nix_stable_24_05
+  srcname: bazel
+  visiblename: bazel
+  version: 6.5.0
   origversion: null
   status: legacy
-  summary: Fast and correct build system (LTS 7)
+  summary: Build tool that builds code quickly and reliably
   maintainers:
-    - yuri@freebsd.org
-  categories:
-    - devel
-- repo: freebsd
-  srcname: devel/bazel8
-  binname: bazel8
-  visiblename: devel/bazel8
-  version: 8.8.2
-  origversion: null
-  status: legacy
-  summary: Fast and correct build system (LTS 8)
-  maintainers:
-    - delphij@freebsd.org
-  categories:
-    - devel
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
 - repo: freebsd
   srcname: devel/bazel9
   binname: bazel9
@@ -253,6 +256,20 @@
   categories:
     - devel
 - repo: homebrew
+  srcname: bazel
+  visiblename: bazel
+  version: 9.3.1
+  origversion: null
+  status: newest
+  summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@7
+  visiblename: bazel@7
+  version: 7.7.2
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
+- repo: homebrew
   srcname: bazel@8
   visiblename: bazel@8
   version: 8.8.2
@@ -263,9 +280,24 @@
   srcname: devel/bazel
   binname: bazel
   visiblename: bazel
-  version: 8.5.1
+  version: 9.3.1
   origversion: null
-  status: outdated
+  status: newest
+  summary: A tool for automating builds and tests.
+  maintainers:
+    - missa-prime@github
+    - herbygillot@github
+  licenses:
+    - Apache-2
+  categories:
+    - devel
+- repo: macports
+  srcname: devel/bazel
+  binname: bazel-8
+  visiblename: bazel-8
+  version: 8.8.2
+  origversion: null
+  status: legacy
   summary: A tool for automating builds and tests.
   maintainers:
     - missa-prime@github
@@ -305,23 +337,6 @@
   origversion: 9.3.1-1
   status: newest
   summary: Correct, reproducible, and fast builds for everyone
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_05
-  srcname: bazel
-  visiblename: bazel
-  version: 6.5.0
-  origversion: null
-  status: legacy
-  summary: Build tool that builds code quickly and reliably
-  maintainers:
-    - mboes@tweag.net
-    - uri@canva.com
-    - claudio.bley@gmail.com
-    - ole6edev@gmail.com
-    - groodt@gmail.com
-    - andreash87@gmx.ch
-    - yves.stan.lecornec@tweag.io
   licenses:
     - Apache-2.0
 - repo: nix_stable_24_05
@@ -510,6 +525,18 @@
     - boltzmannrain@gmail.com
   licenses:
     - Apache-2.0
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: bazel3.4
+  visiblename: bazel3.4
+  version: 3.4.1
+  origversion: 3.4.1-bp155.2.13
+  status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
 - repo: nix_stable_26_05
   srcname: bazel_7
   visiblename: bazel
@@ -524,6 +551,19 @@
     - boltzmannrain@gmail.com
   licenses:
     - Apache-2.0
+- repo: openeuler_24_09
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.3.0
+  origversion: 5.3.0-1.oe2409
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
 - repo: nix_stable_26_05
   srcname: bazel_8
   visiblename: bazel
@@ -681,19 +721,6 @@
     - Apache License 2.0
   categories:
     - Unspecified
-- repo: openeuler_24_09
-  srcname: bazel
-  binnames:
-    - bazel
-  visiblename: bazel
-  version: 5.3.0
-  origversion: 5.3.0-1.oe2409
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone.
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Unspecified
 - repo: openeuler_25_03
   srcname: bazel
   binnames:
@@ -718,18 +745,6 @@
     - GPL
   categories:
     - Building
-- repo: opensuse_leap_15_5
-  subrepo: updates/backports
-  srcname: bazel6
-  visiblename: bazel6
-  version: 6.1.2
-  origversion: 6.1.2-bp155.2.1
-  status: outdated
-  summary: Tool for the automation of building and testing of software
-  licenses:
-    - Apache-2.0
-  categories:
-    - Development/Tools/Building
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: bazel
@@ -803,12 +818,12 @@
   categories:
     - Development/Tools/Building
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: bazel3.4
-  visiblename: bazel3.4
-  version: 3.4.1
-  origversion: 3.4.1-bp155.2.13
-  status: legacy
+  subrepo: updates/backports
+  srcname: bazel6
+  visiblename: bazel6
+  version: 6.1.2
+  origversion: 6.1.2-bp155.2.1
+  status: outdated
   summary: Tool for the automation of building and testing of software
   licenses:
     - Apache-2.0
@@ -862,6 +877,13 @@
     - Apache-2.0
   categories:
     - Development/Tools/Building
+- repo: xrepo
+  srcname: bazel
+  visiblename: bazel
+  version: 5.0.0
+  origversion: null
+  status: legacy
+  summary: A fast, scalable, multi-language and extensible build system
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: bazel1.2
@@ -1131,13 +1153,6 @@
   summary: software tool that automates software builds and tests
   licenses:
     - Apache Software License 2.0
-- repo: xrepo
-  srcname: bazel
-  visiblename: bazel
-  version: 5.0.0
-  origversion: null
-  status: legacy
-  summary: A fast, scalable, multi-language and extensible build system
 - repo: xrepo
   srcname: bazel
   visiblename: bazel
