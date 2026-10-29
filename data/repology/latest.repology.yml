@@ -12,6 +12,28 @@
   origversion: null
   status: legacy
   summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@8
+  visiblename: bazel@8
+  version: 8.8.2
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
+- repo: macports
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.1
+  origversion: null
+  status: newest
+  summary: A tool for automating builds and tests.
+  maintainers:
+    - missa-prime@github
+    - herbygillot@github
+  licenses:
+    - Apache-2
+  categories:
+    - devel
 - repo: alpine_edge
   subrepo: testing
   srcname: bazel
@@ -53,24 +75,6 @@
     - Apache-2.0
   categories:
     - Development/Java
-- repo: nix_stable_25_11
-  srcname: bazel
-  visiblename: bazel
-  version: 7.6.0
-  origversion: null
-  status: legacy
-  summary: Build tool that builds code quickly and reliably
-  maintainers:
-    - mboes@tweag.net
-    - uri@canva.com
-    - claudio.bley@gmail.com
-    - ole6edev@gmail.com
-    - groodt@gmail.com
-    - andreash87@gmx.ch
-    - yves.stan.lecornec@tweag.io
-    - boltzmannrain@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: altsisyphus
   srcname: bazel
   binnames:
@@ -268,28 +272,6 @@
   summary: Fast and correct build system
   maintainers:
     - vishwin@freebsd.org
-  categories:
-    - devel
-- repo: homebrew
-  srcname: bazel@8
-  visiblename: bazel@8
-  version: 8.8.2
-  origversion: null
-  status: legacy
-  summary: Google's own build tool
-- repo: macports
-  srcname: devel/bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.1
-  origversion: null
-  status: newest
-  summary: A tool for automating builds and tests.
-  maintainers:
-    - missa-prime@github
-    - herbygillot@github
-  licenses:
-    - Apache-2
   categories:
     - devel
 - repo: macports
@@ -494,6 +476,24 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_11
+  srcname: bazel
+  visiblename: bazel
+  version: 7.6.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+    - boltzmannrain@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
   srcname: bazel_8
   visiblename: bazel
   version: 8.4.2
@@ -593,6 +593,18 @@
     - boltzmannrain@gmail.com
   licenses:
     - Apache-2.0
+- repo: pkgsrc_2026_2
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.4.0
+  origversion: null
+  status: outdated
+  summary: Fast and correct build automation tool
+  maintainers:
+    - ryoon@netbsd.org
+  categories:
+    - devel
 - repo: nix_unstable
   srcname: bazel_8
   visiblename: bazel
@@ -734,18 +746,6 @@
   categories:
     - Building
 - repo: opensuse_leap_15_5
-  subrepo: updates/backports
-  srcname: bazel6
-  visiblename: bazel6
-  version: 6.1.2
-  origversion: 6.1.2-bp155.2.1
-  status: outdated
-  summary: Tool for the automation of building and testing of software
-  licenses:
-    - Apache-2.0
-  categories:
-    - Development/Tools/Building
-- repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: bazel
   visiblename: bazel
@@ -824,6 +824,18 @@
   version: 3.4.1
   origversion: 3.4.1-bp155.2.13
   status: legacy
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
+  subrepo: updates/backports
+  srcname: bazel6
+  visiblename: bazel6
+  version: 6.1.2
+  origversion: 6.1.2-bp155.2.1
+  status: outdated
   summary: Tool for the automation of building and testing of software
   licenses:
     - Apache-2.0
@@ -941,18 +953,6 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT AND GPL-2.0-or-later AND BSD-2-Clause AND Python-2.0 AND Zlib AND BSL-1.0
   categories:
     - Development/Tools/Building
-- repo: pkgsrc_2026_2
-  srcname: devel/bazel
-  binname: bazel
-  visiblename: devel/bazel
-  version: 6.4.0
-  origversion: null
-  status: outdated
-  summary: Fast and correct build automation tool
-  maintainers:
-    - ryoon@netbsd.org
-  categories:
-    - devel
 - repo: pkgsrc_2026_3
   srcname: devel/bazel
   binname: bazel
