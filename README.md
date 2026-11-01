@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 26,021 · **Forks**: 4,669 · **Open issues**: 17,408 · **Contributors**: 1,150
+- **Stars**: 26,026 · **Forks**: 4,669 · **Open issues**: 17,409 · **Contributors**: 1,150
 
 ## Totals (cumulative)
 
-- **Releases**: 286 · **Merged PRs**: 2939 · **Open PRs**: 530 · **Closed issues**: 15867 · **Open issues**: 1541 · **Commits**: 47793
+- **Releases**: 286 · **Merged PRs**: 2939 · **Open PRs**: 531 · **Closed issues**: 15867 · **Open issues**: 1542 · **Commits**: 47793
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 13 | 157 | 221 | 168 | 160 | 419 |
-| last60d | 2026-09-01 | 19 | 221 | 317 | 257 | 212 | 899 |
-| 90d | 2026-08-02 | 24 | 292 | 343 | 369 | 239 | 1207 |
-| last180d | 2026-05-04 | 31 | 480 | 421 | 721 | 291 | 1904 |
-| 360d | 2025-11-05 | 64 | 843 | 484 | 1391 | 407 | 3098 |
-| last720d | 2024-11-10 | 100 | 1399 | 516 | 2614 | 674 | 6375 |
+| 30d | 2026-10-02 | 12 | 156 | 213 | 159 | 151 | 317 |
+| last60d | 2026-09-02 | 19 | 212 | 319 | 253 | 213 | 805 |
+| 90d | 2026-08-03 | 24 | 289 | 343 | 369 | 237 | 1130 |
+| last180d | 2026-05-05 | 31 | 480 | 422 | 719 | 291 | 1868 |
+| 360d | 2025-11-06 | 64 | 834 | 485 | 1378 | 407 | 3063 |
+| last720d | 2024-11-11 | 100 | 1394 | 517 | 2608 | 675 | 6375 |
 
 ## Release assets
 
@@ -141,7 +141,7 @@ Reported by **97** distros on [repology.org](https://repology.org/project/bazel)
 |--------|---------|--------|
 | Arch | `9.3.1` | ✅ latest |
 | Homebrew | `9.3.1` | ✅ latest |
-| Nix unstable | `9.2.0` | ⚠️ outdated |
+| Nix unstable | `7.6.0` | 🪦 legacy |
 | Void | `8.3.1` | ⚠️ outdated |
 | Alpine edge | `9.3.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `8.4.1` | ⚠️ outdated |
@@ -155,4 +155,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:08:42Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:33:45Z._
