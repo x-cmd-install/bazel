@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 26,026 · **Forks**: 4,669 · **Open issues**: 17,409 · **Contributors**: 1,150
+- **Stars**: 26,029 · **Forks**: 4,672 · **Open issues**: 17,412 · **Contributors**: 1,150
 
 ## Totals (cumulative)
 
-- **Releases**: 286 · **Merged PRs**: 2939 · **Open PRs**: 531 · **Closed issues**: 15867 · **Open issues**: 1542 · **Commits**: 47793
+- **Releases**: 286 · **Merged PRs**: 2939 · **Open PRs**: 541 · **Closed issues**: 15868 · **Open issues**: 1544 · **Commits**: 47793
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 12 | 156 | 213 | 159 | 151 | 317 |
-| last60d | 2026-09-02 | 19 | 212 | 319 | 253 | 213 | 805 |
-| 90d | 2026-08-03 | 24 | 289 | 343 | 369 | 237 | 1130 |
-| last180d | 2026-05-05 | 31 | 480 | 422 | 719 | 291 | 1868 |
-| 360d | 2025-11-06 | 64 | 834 | 485 | 1378 | 407 | 3063 |
-| last720d | 2024-11-11 | 100 | 1394 | 517 | 2608 | 675 | 6375 |
+| 30d | 2026-10-03 | 12 | 156 | 214 | 158 | 147 | 317 |
+| last60d | 2026-09-03 | 19 | 208 | 332 | 253 | 215 | 805 |
+| 90d | 2026-08-04 | 24 | 283 | 354 | 367 | 239 | 1130 |
+| last180d | 2026-05-06 | 30 | 478 | 431 | 716 | 293 | 1868 |
+| 360d | 2025-11-07 | 63 | 830 | 495 | 1370 | 408 | 3063 |
+| last720d | 2024-11-12 | 100 | 1388 | 527 | 2604 | 673 | 6348 |
 
 ## Release assets
 
@@ -135,7 +135,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **97** distros on [repology.org](https://repology.org/project/bazel). **15** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
+Reported by **97** distros on [repology.org](https://repology.org/project/bazel). **17** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -143,7 +143,7 @@ Reported by **97** distros on [repology.org](https://repology.org/project/bazel)
 | Homebrew | `9.3.1` | ✅ latest |
 | Nix unstable | `7.6.0` | 🪦 legacy |
 | Void | `8.3.1` | ⚠️ outdated |
-| Alpine edge | `9.3.0` | ⚠️ outdated |
+| Alpine edge | `9.3.1` | ✅ latest |
 | openSUSE Tumbleweed | `8.4.1` | ⚠️ outdated |
 
 ## Improve this data
@@ -155,4 +155,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:33:45Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:41:38Z._
