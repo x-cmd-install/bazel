@@ -1,11 +1,3 @@
-- repo: baulk
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.1
-  origversion: null
-  status: newest
-  summary: A fast, scalable, multi-language and extensible build system.
 - repo: conancenter
   srcname: bazel
   visiblename: bazel
@@ -18,37 +10,6 @@
   version: 7.0.0
   origversion: null
   status: legacy
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 6.5.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 6.2.0
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 5.4.1
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 4.2.4
-  origversion: null
-  status: legacy
-- repo: chocolatey
-  binname: bazel
-  visiblename: bazel (Install)
-  version: 9.3.1
-  origversion: null
-  status: newest
-  summary: Correct, reproducible, fast builds for everyone
 - repo: chromebrew
   srcname: bazel
   visiblename: bazel
@@ -58,12 +19,6 @@
   summary: a fast, scalable, multi-language and extensible build system
   licenses:
     - Apache-2.0
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 4.0.0
-  origversion: null
-  status: legacy
 - repo: alpine_edge
   subrepo: testing
   srcname: bazel
@@ -167,6 +122,51 @@
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
+- repo: baulk
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.1
+  origversion: null
+  status: newest
+  summary: A fast, scalable, multi-language and extensible build system.
+- repo: chocolatey
+  binname: bazel
+  visiblename: bazel (Install)
+  version: 9.3.1
+  origversion: null
+  status: newest
+  summary: Correct, reproducible, fast builds for everyone
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 6.5.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 6.2.0
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 5.4.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 4.2.4
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 4.0.0
+  origversion: null
+  status: legacy
 - repo: exherbo
   subrepo: CleverCloud
   srcname: dev-util/bazel
@@ -203,23 +203,6 @@
     - yuri@freebsd.org
   categories:
     - devel
-- repo: nix_stable_24_11
-  srcname: bazel
-  visiblename: bazel
-  version: 6.5.0
-  origversion: null
-  status: legacy
-  summary: Build tool that builds code quickly and reliably
-  maintainers:
-    - mboes@tweag.net
-    - uri@canva.com
-    - claudio.bley@gmail.com
-    - ole6edev@gmail.com
-    - groodt@gmail.com
-    - andreash87@gmx.ch
-    - yves.stan.lecornec@tweag.io
-  licenses:
-    - Apache-2.0
 - repo: freebsd
   srcname: devel/bazel8
   binname: bazel8
@@ -392,6 +375,23 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_24_11
+  srcname: bazel
+  visiblename: bazel
+  version: 6.5.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
   srcname: bazel_5
   visiblename: bazel
   version: 5.4.1
@@ -540,6 +540,19 @@
     - boltzmannrain@gmail.com
   licenses:
     - Apache-2.0
+- repo: openeuler_24_09
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.3.0
+  origversion: 5.3.0-1.oe2409
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
 - repo: nix_stable_26_05
   srcname: bazel_8
   visiblename: bazel
@@ -691,19 +704,6 @@
   visiblename: bazel
   version: 5.3.0
   origversion: 5.3.0-2.oe2403sp1
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone.
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Unspecified
-- repo: openeuler_24_09
-  srcname: bazel
-  binnames:
-    - bazel
-  visiblename: bazel
-  version: 5.3.0
-  origversion: 5.3.0-1.oe2409
   status: outdated
   summary: Correct, reproducible, and fast builds for everyone.
   licenses:
@@ -878,6 +878,13 @@
     - Apache-2.0
   categories:
     - Development/Tools/Building
+- repo: xrepo
+  srcname: bazel
+  visiblename: bazel
+  version: 5.0.0
+  origversion: null
+  status: legacy
+  summary: A fast, scalable, multi-language and extensible build system
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: bazel1.2
@@ -1009,28 +1016,6 @@
     - Apache-2.0
   categories:
     - build-tools
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 8.3.1
-  origversion: 8.3.1_1
-  status: outdated
-  summary: Google's build system
-  maintainers:
-    - congdanhqx@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: wikidata
-  srcname: Q25345982
-  visiblename: Bazel
-  version: 9.3.0
-  origversion: null
-  status: outdated
-  summary: software tool that automates software builds and tests
-  licenses:
-    - Apache Software License 2.0
 - repo: termux
   srcname: bazel
   binname: bazel
@@ -1147,13 +1132,28 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: xrepo
+- repo: void_x86_64
+  subrepo: x86_64
   srcname: bazel
+  binname: bazel
   visiblename: bazel
-  version: 5.0.0
+  version: 8.3.1
+  origversion: 8.3.1_1
+  status: outdated
+  summary: Google's build system
+  maintainers:
+    - congdanhqx@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: wikidata
+  srcname: Q25345982
+  visiblename: Bazel
+  version: 9.3.0
   origversion: null
-  status: legacy
-  summary: A fast, scalable, multi-language and extensible build system
+  status: outdated
+  summary: software tool that automates software builds and tests
+  licenses:
+    - Apache Software License 2.0
 - repo: xrepo
   srcname: bazel
   visiblename: bazel
