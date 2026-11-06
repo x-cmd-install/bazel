@@ -1,24 +1,3 @@
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 7.2.1
-  origversion: null
-  status: outdated
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 7.0.0
-  origversion: null
-  status: legacy
-- repo: chromebrew
-  srcname: bazel
-  visiblename: bazel
-  version: 9.3.1
-  origversion: null
-  status: newest
-  summary: a fast, scalable, multi-language and extensible build system
-  licenses:
-    - Apache-2.0
 - repo: alpine_edge
   subrepo: testing
   srcname: bazel
@@ -26,7 +5,7 @@
   visiblename: bazel
   version: 9.3.1
   origversion: 9.3.1-r0
-  status: newest
+  status: outdated
   summary: Bazel is an open-source build and test tool
   maintainers:
     - badfunkstripe@gmail.com
@@ -39,7 +18,7 @@
   visiblename: bazel-bash-completion
   version: 9.3.1
   origversion: 9.3.1-r0
-  status: newest
+  status: outdated
   summary: Bash completions for bazel
   maintainers:
     - badfunkstripe@gmail.com
@@ -68,7 +47,7 @@
   visiblename: bazel
   version: 9.3.1
   origversion: 9.3.1-alt1
-  status: newest
+  status: outdated
   summary: A fast, scalable, multi-language and extensible build system
   maintainers:
     - xeno@altlinux.org
@@ -95,7 +74,7 @@
   visiblename: bazel
   version: 9.3.1
   origversion: 9.3.1-1
-  status: newest
+  status: outdated
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
@@ -118,7 +97,7 @@
   visiblename: bazel
   version: 9.3.1
   origversion: 9.3.1-1
-  status: newest
+  status: outdated
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
@@ -126,7 +105,7 @@
   srcname: bazel
   binname: bazel
   visiblename: bazel
-  version: 9.3.1
+  version: 9.3.2
   origversion: null
   status: newest
   summary: A fast, scalable, multi-language and extensible build system.
@@ -135,8 +114,36 @@
   visiblename: bazel (Install)
   version: 9.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Correct, reproducible, fast builds for everyone
+- repo: chromebrew
+  srcname: bazel
+  visiblename: bazel
+  version: 9.3.1
+  origversion: null
+  status: outdated
+  summary: a fast, scalable, multi-language and extensible build system
+  licenses:
+    - Apache-2.0
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 7.2.1
+  origversion: null
+  status: outdated
+- repo: conancenter
+  srcname: bazel
+  visiblename: bazel
+  version: 7.0.0
+  origversion: null
+  status: legacy
+- repo: homebrew
+  srcname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: null
+  status: newest
+  summary: Google's own build tool
 - repo: conancenter
   srcname: bazel
   visiblename: bazel
@@ -219,7 +226,7 @@
   srcname: devel/bazel9
   binname: bazel9
   visiblename: devel/bazel9
-  version: 9.3.1
+  version: 9.3.2
   origversion: null
   status: newest
   summary: Fast and correct build system (LTS 9)
@@ -240,13 +247,6 @@
   categories:
     - devel
 - repo: homebrew
-  srcname: bazel
-  visiblename: bazel
-  version: 9.3.1
-  origversion: null
-  status: newest
-  summary: Google's own build tool
-- repo: homebrew
   srcname: bazel@7
   visiblename: bazel@7
   version: 7.7.2
@@ -266,7 +266,7 @@
   visiblename: bazel
   version: 9.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: A tool for automating builds and tests.
   maintainers:
     - missa-prime@github
@@ -319,7 +319,7 @@
   visiblename: bazel
   version: 9.3.1
   origversion: 9.3.1-1
-  status: newest
+  status: outdated
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
@@ -540,19 +540,6 @@
     - boltzmannrain@gmail.com
   licenses:
     - Apache-2.0
-- repo: openeuler_24_09
-  srcname: bazel
-  binnames:
-    - bazel
-  visiblename: bazel
-  version: 5.3.0
-  origversion: 5.3.0-1.oe2409
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone.
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Unspecified
 - repo: nix_stable_26_05
   srcname: bazel_8
   visiblename: bazel
@@ -710,6 +697,19 @@
     - Apache License 2.0
   categories:
     - Unspecified
+- repo: openeuler_24_09
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.3.0
+  origversion: 5.3.0-1.oe2409
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
 - repo: openeuler_25_03
   srcname: bazel
   binnames:
@@ -734,6 +734,18 @@
     - GPL
   categories:
     - Building
+- repo: opensuse_leap_15_5
+  subrepo: updates/backports
+  srcname: bazel6
+  visiblename: bazel6
+  version: 6.1.2
+  origversion: 6.1.2-bp155.2.1
+  status: outdated
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: bazel
@@ -818,18 +830,6 @@
     - Apache-2.0
   categories:
     - Development/Tools/Building
-- repo: opensuse_leap_15_5
-  subrepo: updates/backports
-  srcname: bazel6
-  visiblename: bazel6
-  version: 6.1.2
-  origversion: 6.1.2-bp155.2.1
-  status: outdated
-  summary: Tool for the automation of building and testing of software
-  licenses:
-    - Apache-2.0
-  categories:
-    - Development/Tools/Building
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: bazel
@@ -878,13 +878,6 @@
     - Apache-2.0
   categories:
     - Development/Tools/Building
-- repo: xrepo
-  srcname: bazel
-  visiblename: bazel
-  version: 5.0.0
-  origversion: null
-  status: legacy
-  summary: A fast, scalable, multi-language and extensible build system
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: bazel1.2
@@ -989,7 +982,7 @@
   subrepo: main
   binname: bazel
   visiblename: bazel
-  version: 9.3.1
+  version: 9.3.2
   origversion: null
   status: newest
   licenses:
@@ -1020,7 +1013,7 @@
   srcname: bazel
   binname: bazel
   visiblename: bazel
-  version: 9.3.1
+  version: 9.3.2
   origversion: null
   status: newest
   summary: Correct, reproducible, and fast builds for everyone
@@ -1070,7 +1063,7 @@
   srcname: bazel9
   binname: bazel9
   visiblename: bazel9
-  version: 9.3.1
+  version: 9.3.2
   origversion: null
   status: newest
   summary: Correct, reproducible, and fast builds for everyone (Version 9)
@@ -1096,7 +1089,7 @@
   visiblename: bazel
   version: 9.3.1
   origversion: 9.3.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Build and test software of any size, quickly and reliably
   maintainers:
     - cypress@fyralabs.com
@@ -1110,7 +1103,7 @@
   visiblename: bazel-bash-completion
   version: 9.3.1
   origversion: 9.3.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Bash completion for bazel
   maintainers:
     - cypress@fyralabs.com
@@ -1124,7 +1117,7 @@
   visiblename: bazel-zsh-completion
   version: 9.3.1
   origversion: 9.3.1-1.fcrawhide
-  status: newest
+  status: outdated
   summary: Zsh completion for bazel
   maintainers:
     - cypress@fyralabs.com
@@ -1154,6 +1147,13 @@
   summary: software tool that automates software builds and tests
   licenses:
     - Apache Software License 2.0
+- repo: xrepo
+  srcname: bazel
+  visiblename: bazel
+  version: 5.0.0
+  origversion: null
+  status: legacy
+  summary: A fast, scalable, multi-language and extensible build system
 - repo: xrepo
   srcname: bazel
   visiblename: bazel
