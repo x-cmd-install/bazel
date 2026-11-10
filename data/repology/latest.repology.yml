@@ -260,22 +260,13 @@
   origversion: null
   status: legacy
   summary: Google's own build tool
-- repo: wikidata
-  srcname: Q25345982
-  visiblename: Bazel
-  version: 9.3.2
-  origversion: null
-  status: newest
-  summary: software tool that automates software builds and tests
-  licenses:
-    - Apache Software License 2.0
 - repo: macports
   srcname: devel/bazel
   binname: bazel
   visiblename: bazel
-  version: 9.3.1
+  version: 9.3.2
   origversion: null
-  status: outdated
+  status: newest
   summary: A tool for automating builds and tests.
   maintainers:
     - missa-prime@github
@@ -862,6 +853,15 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: wikidata
+  srcname: Q25345982
+  visiblename: Bazel
+  version: 9.3.2
+  origversion: null
+  status: newest
+  summary: software tool that automates software builds and tests
+  licenses:
+    - Apache Software License 2.0
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: bazel0.19
@@ -1029,6 +1029,13 @@
     - Apache-2.0
   categories:
     - build-tools
+- repo: xrepo
+  srcname: bazel
+  visiblename: bazel
+  version: 7.1.0
+  origversion: null
+  status: outdated
+  summary: A fast, scalable, multi-language and extensible build system
 - repo: termux
   srcname: bazel
   binname: bazel
@@ -1151,11 +1158,4 @@
   version: 5.0.0
   origversion: null
   status: legacy
-  summary: A fast, scalable, multi-language and extensible build system
-- repo: xrepo
-  srcname: bazel
-  visiblename: bazel
-  version: 7.1.0
-  origversion: null
-  status: outdated
   summary: A fast, scalable, multi-language and extensible build system
