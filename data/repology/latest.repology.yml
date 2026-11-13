@@ -1,51 +1,77 @@
-- repo: homebrew
+- repo: pkgsrc_2026_3
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.4.0
+  origversion: null
+  status: outdated
+  summary: Fast and correct build automation tool
+  maintainers:
+    - ryoon@netbsd.org
+  categories:
+    - devel
+- repo: pkgsrc_current
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.4.0
+  origversion: null
+  status: outdated
+  summary: Fast and correct build automation tool
+  maintainers:
+    - ryoon@netbsd.org
+  categories:
+    - devel
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: openbsd
+  srcname: devel/bazel
+  binname: bazel
+  visiblename: devel/bazel
+  version: 6.5.0
+  origversion: null
+  status: outdated
+  summary: polyglot build tool
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - devel
+- repo: chocolatey
+  binname: bazel
+  visiblename: bazel (Install)
+  version: 9.3.1
+  origversion: null
+  status: outdated
+  summary: Correct, reproducible, fast builds for everyone
+- repo: openeuler_22_03_lts_sp1
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.1.1
+  origversion: 5.1.1-0.oe2203sp1
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
+- repo: chromebrew
   srcname: bazel
   visiblename: bazel
   version: 9.3.2
   origversion: null
   status: newest
-  summary: Google's own build tool
-- repo: homebrew
-  srcname: bazel@7
-  visiblename: bazel@7
-  version: 7.7.2
-  origversion: null
-  status: legacy
-  summary: Google's own build tool
-- repo: homebrew
-  srcname: bazel@8
-  visiblename: bazel@8
-  version: 8.8.2
-  origversion: null
-  status: legacy
-  summary: Google's own build tool
-- repo: nix_stable_25_11
-  srcname: bazel
-  visiblename: bazel
-  version: 7.6.0
-  origversion: null
-  status: legacy
-  summary: Build tool that builds code quickly and reliably
-  maintainers:
-    - mboes@tweag.net
-    - uri@canva.com
-    - claudio.bley@gmail.com
-    - ole6edev@gmail.com
-    - groodt@gmail.com
-    - andreash87@gmx.ch
-    - yves.stan.lecornec@tweag.io
-    - boltzmannrain@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.2.0
-  origversion: 9.2.0-2
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone
+  summary: a fast, scalable, multi-language and extensible build system
   licenses:
     - Apache-2.0
 - repo: alpine_edge
@@ -89,6 +115,19 @@
     - Apache-2.0
   categories:
     - Development/Java
+- repo: openeuler_22_03_lts_sp3
+  srcname: bazel
+  binnames:
+    - bazel
+  visiblename: bazel
+  version: 5.1.1
+  origversion: 5.1.1-0.oe2203sp3
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone.
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Unspecified
 - repo: altsisyphus
   srcname: bazel
   binnames:
@@ -145,9 +184,9 @@
   srcname: bazel
   binname: bazel
   visiblename: bazel
-  version: 9.3.1
-  origversion: 9.3.1-1
-  status: outdated
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: newest
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
@@ -159,22 +198,6 @@
   origversion: null
   status: newest
   summary: A fast, scalable, multi-language and extensible build system.
-- repo: chocolatey
-  binname: bazel
-  visiblename: bazel (Install)
-  version: 9.3.1
-  origversion: null
-  status: outdated
-  summary: Correct, reproducible, fast builds for everyone
-- repo: chromebrew
-  srcname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: null
-  status: newest
-  summary: a fast, scalable, multi-language and extensible build system
-  licenses:
-    - Apache-2.0
 - repo: conancenter
   srcname: bazel
   visiblename: bazel
@@ -253,6 +276,23 @@
     - yuri@freebsd.org
   categories:
     - devel
+- repo: nix_stable_24_11
+  srcname: bazel
+  visiblename: bazel
+  version: 6.5.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
 - repo: freebsd
   srcname: devel/bazel8
   binname: bazel8
@@ -289,6 +329,27 @@
     - vishwin@freebsd.org
   categories:
     - devel
+- repo: homebrew
+  srcname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: null
+  status: newest
+  summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@7
+  visiblename: bazel@7
+  version: 7.7.2
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@8
+  visiblename: bazel@8
+  version: 8.8.2
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
 - repo: macports
   srcname: devel/bazel
   binname: bazel
@@ -319,6 +380,17 @@
     - Apache-2
   categories:
     - devel
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.2.0
+  origversion: 9.2.0-2
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
 - repo: manjaro_testing
   subrepo: extra
   srcname: bazel
@@ -330,15 +402,13 @@
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: bazel
+- repo: scoop
+  subrepo: main
   binname: bazel
   visiblename: bazel
   version: 9.3.2
-  origversion: 9.3.2-1
+  origversion: null
   status: newest
-  summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
 - repo: nix_stable_24_05
@@ -381,23 +451,6 @@
   version: 7.1.0
   origversion: null
   status: outdated
-  summary: Build tool that builds code quickly and reliably
-  maintainers:
-    - mboes@tweag.net
-    - uri@canva.com
-    - claudio.bley@gmail.com
-    - ole6edev@gmail.com
-    - groodt@gmail.com
-    - andreash87@gmx.ch
-    - yves.stan.lecornec@tweag.io
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: bazel
-  visiblename: bazel
-  version: 6.5.0
-  origversion: null
-  status: legacy
   summary: Build tool that builds code quickly and reliably
   maintainers:
     - mboes@tweag.net
@@ -492,6 +545,24 @@
     - groodt@gmail.com
     - andreash87@gmx.ch
     - yves.stan.lecornec@tweag.io
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: bazel
+  visiblename: bazel
+  version: 7.6.0
+  origversion: null
+  status: legacy
+  summary: Build tool that builds code quickly and reliably
+  maintainers:
+    - mboes@tweag.net
+    - uri@canva.com
+    - claudio.bley@gmail.com
+    - ole6edev@gmail.com
+    - groodt@gmail.com
+    - andreash87@gmx.ch
+    - yves.stan.lecornec@tweag.io
+    - boltzmannrain@gmail.com
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_11
@@ -620,44 +691,6 @@
     - boltzmannrain@gmail.com
   licenses:
     - Apache-2.0
-- repo: openbsd
-  srcname: devel/bazel
-  binname: bazel
-  visiblename: devel/bazel
-  version: 6.5.0
-  origversion: null
-  status: outdated
-  summary: polyglot build tool
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - devel
-- repo: openeuler_22_03_lts_sp1
-  srcname: bazel
-  binnames:
-    - bazel
-  visiblename: bazel
-  version: 5.1.1
-  origversion: 5.1.1-0.oe2203sp1
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone.
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Unspecified
-- repo: openeuler_22_03_lts_sp3
-  srcname: bazel
-  binnames:
-    - bazel
-  visiblename: bazel
-  version: 5.1.1
-  origversion: 5.1.1-0.oe2203sp3
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone.
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Unspecified
 - repo: openeuler_22_03_lts_sp4
   srcname: bazel
   binnames:
@@ -943,39 +976,6 @@
     - ryoon@netbsd.org
   categories:
     - devel
-- repo: pkgsrc_2026_3
-  srcname: devel/bazel
-  binname: bazel
-  visiblename: devel/bazel
-  version: 6.4.0
-  origversion: null
-  status: outdated
-  summary: Fast and correct build automation tool
-  maintainers:
-    - ryoon@netbsd.org
-  categories:
-    - devel
-- repo: pkgsrc_current
-  srcname: devel/bazel
-  binname: bazel
-  visiblename: devel/bazel
-  version: 6.4.0
-  origversion: null
-  status: outdated
-  summary: Fast and correct build automation tool
-  maintainers:
-    - ryoon@netbsd.org
-  categories:
-    - devel
-- repo: scoop
-  subrepo: main
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: slackbuilds
   srcname: development/bazel
   visiblename: development/bazel
@@ -1062,9 +1062,9 @@
   srcname: bazel
   binname: bazel
   visiblename: bazel
-  version: 9.3.0
-  origversion: 9.3.0-1.fcrawhide
-  status: legacy
+  version: 9.3.2
+  origversion: 9.3.2-1.fcrawhide
+  status: newest
   summary: Build and test software of any size, quickly and reliably
   maintainers:
     - cypress@fyralabs.com
@@ -1076,9 +1076,9 @@
   srcname: bazel
   binname: bazel
   visiblename: bazel
-  version: 9.3.1
-  origversion: 9.3.1-1.fcrawhide
-  status: outdated
+  version: 9.3.2
+  origversion: 9.3.2-1.fcrawhide
+  status: newest
   summary: Build and test software of any size, quickly and reliably
   maintainers:
     - cypress@fyralabs.com
@@ -1090,9 +1090,9 @@
   srcname: bazel
   binname: bazel-bash-completion
   visiblename: bazel-bash-completion
-  version: 9.3.1
-  origversion: 9.3.1-1.fcrawhide
-  status: outdated
+  version: 9.3.2
+  origversion: 9.3.2-1.fcrawhide
+  status: newest
   summary: Bash completion for bazel
   maintainers:
     - cypress@fyralabs.com
@@ -1104,9 +1104,9 @@
   srcname: bazel
   binname: bazel-zsh-completion
   visiblename: bazel-zsh-completion
-  version: 9.3.1
-  origversion: 9.3.1-1.fcrawhide
-  status: outdated
+  version: 9.3.2
+  origversion: 9.3.2-1.fcrawhide
+  status: newest
   summary: Zsh completion for bazel
   maintainers:
     - cypress@fyralabs.com
