@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 26,103 · **Forks**: 4,684 · **Open issues**: 17,548 · **Contributors**: 1,157
+- **Stars**: 26,106 · **Forks**: 4,685 · **Open issues**: 17,552 · **Contributors**: 1,157
 
 ## Totals (cumulative)
 
-- **Releases**: 291 · **Merged PRs**: 3008 · **Open PRs**: 558 · **Closed issues**: 15991 · **Open issues**: 1557 · **Commits**: 48000
+- **Releases**: 291 · **Merged PRs**: 3008 · **Open PRs**: 566 · **Closed issues**: 15991 · **Open issues**: 1561 · **Commits**: 48000
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 14 | 160 | 209 | 159 | 174 | 356 |
-| last60d | 2026-09-16 | 23 | 254 | 329 | 311 | 244 | 742 |
-| 90d | 2026-08-17 | 28 | 326 | 369 | 411 | 263 | 1231 |
-| last180d | 2026-05-19 | 34 | 528 | 443 | 778 | 321 | 1997 |
-| 360d | 2025-11-20 | 63 | 869 | 511 | 1419 | 424 | 3178 |
-| last720d | 2024-11-25 | 100 | 1414 | 544 | 2646 | 686 | 6407 |
+| 30d | 2026-10-17 | 14 | 160 | 212 | 157 | 176 | 356 |
+| last60d | 2026-09-17 | 23 | 251 | 334 | 309 | 246 | 742 |
+| 90d | 2026-08-18 | 28 | 324 | 377 | 405 | 265 | 1231 |
+| last180d | 2026-05-20 | 34 | 526 | 451 | 771 | 325 | 1997 |
+| 360d | 2025-11-21 | 63 | 868 | 519 | 1418 | 428 | 3178 |
+| last720d | 2024-11-26 | 100 | 1412 | 552 | 2635 | 689 | 6393 |
 
 ## Release assets
 
@@ -135,7 +135,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **97** distros on [repology.org](https://repology.org/project/bazel). **18** are ✅ on the latest upstream release, **33** are ⚠️ on an older version.
+Reported by **97** distros on [repology.org](https://repology.org/project/bazel). **19** are ✅ on the latest upstream release, **32** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -155,4 +155,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:00:00Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T07:20:41Z._
