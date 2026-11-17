@@ -1,37 +1,31 @@
-- repo: aosc
-  srcname: app-devel/bazel
-  binname: bazel
+- repo: conancenter
+  srcname: bazel
   visiblename: bazel
-  version: 9.1.0
+  version: 7.2.1
   origversion: null
   status: outdated
-  summary: Tool to automate software builds and tests
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - devel
-- repo: manjaro_testing
-  subrepo: extra
+- repo: conancenter
   srcname: bazel
-  binname: bazel
   visiblename: bazel
-  version: 9.3.1
-  origversion: 9.3.1-1
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: bazel
+  version: 7.0.0
+  origversion: null
+  status: legacy
+- repo: scoop
+  subrepo: main
   binname: bazel
   visiblename: bazel
   version: 9.3.2
-  origversion: 9.3.2-1
+  origversion: null
   status: newest
-  summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
+- repo: chocolatey
+  binname: bazel
+  visiblename: bazel (Install)
+  version: 9.3.2
+  origversion: null
+  status: newest
+  summary: Correct, reproducible, fast builds for everyone
 - repo: alpine_edge
   subrepo: testing
   srcname: bazel
@@ -89,15 +83,18 @@
     - Apache-2.0
   categories:
     - Development/Java
-- repo: wikidata
-  srcname: Q25345982
-  visiblename: Bazel
-  version: 9.3.2
+- repo: aosc
+  srcname: app-devel/bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.1.0
   origversion: null
-  status: newest
-  summary: software tool that automates software builds and tests
-  licenses:
-    - Apache Software License 2.0
+  status: outdated
+  summary: Tool to automate software builds and tests
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
 - repo: arch
   subrepo: extra
   srcname: bazel
@@ -140,13 +137,6 @@
   origversion: null
   status: newest
   summary: A fast, scalable, multi-language and extensible build system.
-- repo: chocolatey
-  binname: bazel
-  visiblename: bazel (Install)
-  version: 9.3.2
-  origversion: null
-  status: newest
-  summary: Correct, reproducible, fast builds for everyone
 - repo: chromebrew
   srcname: bazel
   visiblename: bazel
@@ -156,18 +146,6 @@
   summary: a fast, scalable, multi-language and extensible build system
   licenses:
     - Apache-2.0
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 7.2.1
-  origversion: null
-  status: outdated
-- repo: conancenter
-  srcname: bazel
-  visiblename: bazel
-  version: 7.0.0
-  origversion: null
-  status: legacy
 - repo: conancenter
   srcname: bazel
   visiblename: bazel
@@ -329,6 +307,28 @@
   version: 9.2.0
   origversion: 9.2.0-2
   status: outdated
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: newest
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: newest
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
@@ -976,15 +976,6 @@
     - ryoon@netbsd.org
   categories:
     - devel
-- repo: scoop
-  subrepo: main
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: slackbuilds
   srcname: development/bazel
   visiblename: development/bazel
@@ -1017,13 +1008,6 @@
   summary: Correct, reproducible, and fast builds for everyone
   maintainers:
     - termux@github
-- repo: xrepo
-  srcname: bazel
-  visiblename: bazel
-  version: 5.0.0
-  origversion: null
-  status: legacy
-  summary: A fast, scalable, multi-language and extensible build system
 - repo: tur
   srcname: bazel5
   binname: bazel5
@@ -1152,6 +1136,22 @@
   summary: software tool that automates software builds and tests
   licenses:
     - Apache Software License 2.0
+- repo: wikidata
+  srcname: Q25345982
+  visiblename: Bazel
+  version: 9.3.2
+  origversion: null
+  status: newest
+  summary: software tool that automates software builds and tests
+  licenses:
+    - Apache Software License 2.0
+- repo: xrepo
+  srcname: bazel
+  visiblename: bazel
+  version: 5.0.0
+  origversion: null
+  status: legacy
+  summary: A fast, scalable, multi-language and extensible build system
 - repo: xrepo
   srcname: bazel
   visiblename: bazel
