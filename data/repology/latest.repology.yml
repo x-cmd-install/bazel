@@ -1,12 +1,48 @@
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: homebrew
+  srcname: bazel@7
+  visiblename: bazel@7
+  version: 7.7.3
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@8
+  visiblename: bazel@8
+  version: 8.9.0
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
 - repo: wikidata
   srcname: Q25345982
   visiblename: Bazel
-  version: 9.3.2
+  version: 9.3.3
   origversion: null
-  status: outdated
+  status: newest
   summary: software tool that automates software builds and tests
   licenses:
     - Apache Software License 2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
 - repo: alpine_edge
   subrepo: testing
   srcname: bazel
@@ -69,7 +105,7 @@
   binname: bazel
   visiblename: bazel
   version: 9.3.2
-  origversion: null
+  origversion: 9.3.2-1
   status: outdated
   summary: Tool to automate software builds and tests
   maintainers:
@@ -255,20 +291,6 @@
   origversion: null
   status: newest
   summary: Google's own build tool
-- repo: homebrew
-  srcname: bazel@7
-  visiblename: bazel@7
-  version: 7.7.3
-  origversion: null
-  status: legacy
-  summary: Google's own build tool
-- repo: homebrew
-  srcname: bazel@8
-  visiblename: bazel@8
-  version: 8.9.0
-  origversion: null
-  status: legacy
-  summary: Google's own build tool
 - repo: macports
   srcname: devel/bazel
   binname: bazel
@@ -306,28 +328,6 @@
   visiblename: bazel
   version: 9.2.0
   origversion: 9.2.0-2
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: 9.3.2-1
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: 9.3.2-1
   status: outdated
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
@@ -733,6 +733,18 @@
   categories:
     - Unspecified
 - repo: opensuse_leap_15_5
+  subrepo: updates/backports
+  srcname: bazel6
+  visiblename: bazel6
+  version: 6.1.2
+  origversion: 6.1.2-bp155.2.1
+  status: outdated
+  summary: Tool for the automation of building and testing of software
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: bazel
   visiblename: bazel
@@ -811,18 +823,6 @@
   version: 3.4.1
   origversion: 3.4.1-bp155.2.13
   status: legacy
-  summary: Tool for the automation of building and testing of software
-  licenses:
-    - Apache-2.0
-  categories:
-    - Development/Tools/Building
-- repo: opensuse_leap_15_5
-  subrepo: updates/backports
-  srcname: bazel6
-  visiblename: bazel6
-  version: 6.1.2
-  origversion: 6.1.2-bp155.2.1
-  status: outdated
   summary: Tool for the automation of building and testing of software
   licenses:
     - Apache-2.0
