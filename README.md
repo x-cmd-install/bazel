@@ -14,24 +14,24 @@ x install bazel
 
 ## Code insight
 
-Total: **1,232,636** lines of code across **7355** files in the top 5 languages.
+Total: **1,237,308** lines of code across **7390** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 1,028,183 | 250,198 | 153,876 | 5874 |
-| Sh | 82,051 | 13,205 | 15,392 | 299 |
-| Cpp | 38,655 | 7,276 | 5,965 | 203 |
-| Svg | 35,595 | 4,188 | 2,162 | 887 |
+| Java | 1,030,780 | 250,361 | 154,190 | 5880 |
+| Sh | 82,970 | 13,417 | 15,527 | 305 |
+| Cpp | 38,672 | 7,276 | 5,967 | 203 |
+| Svg | 36,688 | 4,396 | 2,162 | 910 |
 | Python | 28,213 | 2,868 | 3,200 | 92 |
 
 ## OpenSSF Scorecard
 
-Overall score: **5.3 / 10**
+Overall score: **5.4 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **CI-Tests** (-1/10) — no pull request found
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 26,126 · **Forks**: 4,689 · **Open issues**: 17,606 · **Contributors**: 1,158
+- **Stars**: 26,129 · **Forks**: 4,689 · **Open issues**: 17,616 · **Contributors**: 1,158
 
 ## Totals (cumulative)
 
-- **Releases**: 299 · **Merged PRs**: 3028 · **Open PRs**: 603 · **Closed issues**: 16017 · **Open issues**: 1589 · **Commits**: 48191
+- **Releases**: 299 · **Merged PRs**: 3035 · **Open PRs**: 604 · **Closed issues**: 16022 · **Open issues**: 1594 · **Commits**: 48216
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 21 | 147 | 235 | 140 | 189 | 546 |
-| last60d | 2026-09-21 | 30 | 262 | 366 | 319 | 268 | 932 |
-| 90d | 2026-08-22 | 35 | 336 | 411 | 413 | 291 | 1421 |
-| last180d | 2026-05-24 | 42 | 541 | 486 | 789 | 350 | 2187 |
-| 360d | 2025-11-25 | 70 | 880 | 556 | 1435 | 455 | 3368 |
-| last720d | 2024-11-30 | 100 | 1426 | 589 | 2646 | 713 | 6528 |
+| 30d | 2026-10-22 | 18 | 145 | 233 | 135 | 193 | 571 |
+| last60d | 2026-09-22 | 30 | 263 | 362 | 321 | 273 | 957 |
+| 90d | 2026-08-23 | 35 | 343 | 412 | 416 | 297 | 1446 |
+| last180d | 2026-05-25 | 42 | 548 | 487 | 793 | 356 | 2212 |
+| 360d | 2025-11-26 | 70 | 886 | 557 | 1430 | 460 | 3393 |
+| last720d | 2024-12-01 | 100 | 1433 | 590 | 2650 | 718 | 6553 |
 
 ## Release assets
 
@@ -144,12 +144,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **97** distros on [repology.org](https://repology.org/project/bazel). **4** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
+Reported by **97** distros on [repology.org](https://repology.org/project/bazel). **5** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `9.3.2` | ⚠️ outdated |
-| Homebrew | `9.3.3` | ✅ latest |
+| Homebrew | `7.7.3` | 🪦 legacy |
 | Nix unstable | `7.6.0` | 🪦 legacy |
 | Void | `8.3.1` | ⚠️ outdated |
 | Alpine edge | `9.3.2` | ⚠️ outdated |
@@ -164,4 +164,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:09:36Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:27:09Z._
