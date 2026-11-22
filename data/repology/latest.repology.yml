@@ -1,37 +1,3 @@
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: 9.3.2-1
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone
-  licenses:
-    - Apache-2.0
-- repo: homebrew
-  srcname: bazel@7
-  visiblename: bazel@7
-  version: 7.7.3
-  origversion: null
-  status: legacy
-  summary: Google's own build tool
-- repo: homebrew
-  srcname: bazel@8
-  visiblename: bazel@8
-  version: 8.9.0
-  origversion: null
-  status: legacy
-  summary: Google's own build tool
-- repo: wikidata
-  srcname: Q25345982
-  visiblename: Bazel
-  version: 9.3.3
-  origversion: null
-  status: newest
-  summary: software tool that automates software builds and tests
-  licenses:
-    - Apache Software License 2.0
 - repo: manjaro_testing
   subrepo: extra
   srcname: bazel
@@ -43,6 +9,66 @@
   summary: Correct, reproducible, and fast builds for everyone
   licenses:
     - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: scoop
+  subrepo: main
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.3
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
+- repo: wikidata
+  srcname: Q25345982
+  visiblename: Bazel
+  version: 9.3.3
+  origversion: null
+  status: newest
+  summary: software tool that automates software builds and tests
+  licenses:
+    - Apache License 2.0
+- repo: artix
+  subrepo: world
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: outdated
+  summary: Correct, reproducible, and fast builds for everyone
+  licenses:
+    - Apache-2.0
+- repo: baulk
+  srcname: bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: null
+  status: outdated
+  summary: A fast, scalable, multi-language and extensible build system.
+- repo: aosc
+  srcname: app-devel/bazel
+  binname: bazel
+  visiblename: bazel
+  version: 9.3.2
+  origversion: 9.3.2-1
+  status: outdated
+  summary: Tool to automate software builds and tests
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
 - repo: alpine_edge
   subrepo: testing
   srcname: bazel
@@ -100,18 +126,6 @@
     - Apache-2.0
   categories:
     - Development/Java
-- repo: aosc
-  srcname: app-devel/bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: 9.3.2-1
-  status: outdated
-  summary: Tool to automate software builds and tests
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - devel
 - repo: arch
   subrepo: extra
   srcname: bazel
@@ -135,25 +149,6 @@
     - fallback-mnt-aur@repology
   licenses:
     - Apache
-- repo: artix
-  subrepo: world
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: 9.3.2-1
-  status: outdated
-  summary: Correct, reproducible, and fast builds for everyone
-  licenses:
-    - Apache-2.0
-- repo: baulk
-  srcname: bazel
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.2
-  origversion: null
-  status: outdated
-  summary: A fast, scalable, multi-language and extensible build system.
 - repo: chocolatey
   binname: bazel
   visiblename: bazel (Install)
@@ -290,6 +285,20 @@
   version: 9.3.3
   origversion: null
   status: newest
+  summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@7
+  visiblename: bazel@7
+  version: 7.7.3
+  origversion: null
+  status: legacy
+  summary: Google's own build tool
+- repo: homebrew
+  srcname: bazel@8
+  visiblename: bazel@8
+  version: 8.9.0
+  origversion: null
+  status: legacy
   summary: Google's own build tool
 - repo: macports
   srcname: devel/bazel
@@ -976,15 +985,6 @@
     - ryoon@netbsd.org
   categories:
     - devel
-- repo: scoop
-  subrepo: main
-  binname: bazel
-  visiblename: bazel
-  version: 9.3.3
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: slackbuilds
   srcname: development/bazel
   visiblename: development/bazel
@@ -1151,7 +1151,7 @@
   status: legacy
   summary: software tool that automates software builds and tests
   licenses:
-    - Apache Software License 2.0
+    - Apache License 2.0
 - repo: xrepo
   srcname: bazel
   visiblename: bazel
