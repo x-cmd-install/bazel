@@ -14,13 +14,13 @@ x install bazel
 
 ## Code insight
 
-Total: **1,240,817** lines of code across **7400** files in the top 5 languages.
+Total: **1,241,457** lines of code across **7398** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 1,033,434 | 250,750 | 154,525 | 5885 |
-| Sh | 83,336 | 13,459 | 15,578 | 307 |
-| Cpp | 39,055 | 7,413 | 6,023 | 205 |
+| Java | 1,033,989 | 250,781 | 154,586 | 5882 |
+| Sh | 83,415 | 13,483 | 15,592 | 308 |
+| Cpp | 39,050 | 7,417 | 6,023 | 205 |
 | Svg | 36,688 | 4,396 | 2,162 | 910 |
 | Python | 28,312 | 2,881 | 3,213 | 93 |
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 26,135 · **Forks**: 4,695 · **Open issues**: 17,635 · **Contributors**: 1,158
+- **Stars**: 26,140 · **Forks**: 4,696 · **Open issues**: 17,641 · **Contributors**: 1,158
 
 ## Totals (cumulative)
 
-- **Releases**: 299 · **Merged PRs**: 3055 · **Open PRs**: 604 · **Closed issues**: 16045 · **Open issues**: 1590 · **Commits**: 48238
+- **Releases**: 299 · **Merged PRs**: 3066 · **Open PRs**: 589 · **Closed issues**: 16052 · **Open issues**: 1589 · **Commits**: 48250
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 15 | 151 | 224 | 129 | 180 | 452 |
-| last60d | 2026-09-25 | 26 | 282 | 348 | 332 | 264 | 894 |
-| 90d | 2026-08-26 | 34 | 359 | 412 | 420 | 293 | 1369 |
-| last180d | 2026-05-28 | 42 | 561 | 485 | 807 | 352 | 2191 |
-| 360d | 2025-11-29 | 70 | 904 | 556 | 1446 | 456 | 3393 |
-| last720d | 2024-12-04 | 100 | 1445 | 590 | 2655 | 713 | 6549 |
+| 30d | 2026-10-26 | 15 | 152 | 209 | 120 | 167 | 464 |
+| last60d | 2026-09-26 | 26 | 293 | 338 | 328 | 261 | 906 |
+| 90d | 2026-08-27 | 34 | 361 | 396 | 418 | 293 | 1381 |
+| last180d | 2026-05-29 | 42 | 571 | 470 | 808 | 351 | 2203 |
+| 360d | 2025-11-30 | 70 | 915 | 541 | 1453 | 454 | 3405 |
+| last720d | 2024-12-05 | 100 | 1456 | 575 | 2655 | 712 | 6545 |
 
 ## Release assets
 
@@ -142,19 +142,6 @@ Lowest-scoring checks:
 | [bazel_nojdk-9.3.3-windows-x86_64.zip.sha256](https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel_nojdk-9.3.3-windows-x86_64.zip.sha256) | 103 B | `native/win/x64` |
 | [bazel_nojdk-9.3.3-windows-x86_64.zip.sig](https://github.com/bazelbuild/bazel/releases/download/9.3.3/bazel_nojdk-9.3.3-windows-x86_64.zip.sig) | 566 B | `native/win/x64` |
 
-## Distribution status
-
-Reported by **97** distros on [repology.org](https://repology.org/project/bazel). **10** are ✅ on the latest upstream release, **41** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `9.3.3` | ✅ latest |
-| Homebrew | `9.3.3` | ✅ latest |
-| Nix unstable | `7.6.0` | 🪦 legacy |
-| Void | `8.3.1` | ⚠️ outdated |
-| Alpine edge | `9.3.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `8.4.1` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `bazel` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -164,4 +151,4 @@ Install metadata for bazel lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:10:14Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:46:04Z._
